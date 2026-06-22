@@ -1,9 +1,7 @@
-import { writeFile } from 'node:fs/promises';
 import type { StructuredScript } from './types.js';
 
 interface FetcherOptions {
   apiKey: string;
-  outputDir: string;
 }
 
 interface PexelsVideoFile {
@@ -43,20 +41,13 @@ function pickBestFile(video: PexelsVideo): PexelsVideoFile | null {
   return anyHd ?? video.video_files[0] ?? null;
 }
 
-async function downloadFile(url: string, dest: string): Promise<void> {
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`Download ${res.status}: ${url}`);
-  }
-  const buf = Buffer.from(await res.arrayBuffer());
-  await writeFile(dest, buf);
-}
-
+// Returns Pexels CDN URLs directly — no local download needed.
+// Remotion's OffthreadVideo handles https:// URLs natively during render.
 export async function fetchBackgroundsForScript(
   script: StructuredScript,
   opts: FetcherOptions,
 ): Promise<string[]> {
-  const paths: string[] = [];
+  const urls: string[] = [];
 
   for (let i = 0; i < script.sections.length; i++) {
     const section = script.sections[i];
@@ -68,10 +59,8 @@ export async function fetchBackgroundsForScript(
     if (!chosen) {
       throw new Error(`No usable video file for query "${section.broll_query}"`);
     }
-    const dest = `${opts.outputDir}/section-${i}.mp4`;
-    await downloadFile(chosen.link, dest);
-    paths.push(dest);
+    urls.push(chosen.link);
   }
 
-  return paths;
+  return urls;
 }

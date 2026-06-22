@@ -60,25 +60,20 @@ export async function runPipeline(opts: PipelineOptions): Promise<number> {
     const script = await loadScriptForBias(opts.scriptsPath, bias.id);
 
     console.log('[pipeline] synthesizing voice');
-    const audioPath = join(opts.workDir, 'audio.mp3');
-    const { timings } = await synthesizeScript(script, {
+    const { audio_data_url, timings } = await synthesizeScript(script, {
       apiKey: opts.env.ELEVENLABS_API_KEY,
       voiceId: opts.env.ELEVENLABS_VOICE_ID,
-      outputPath: audioPath,
     });
 
     console.log('[pipeline] fetching backgrounds');
-    const bgDir = join(opts.workDir, 'bg');
-    await mkdir(bgDir, { recursive: true });
     const backgroundPaths = await fetchBackgroundsForScript(script, {
       apiKey: opts.env.PEXELS_API_KEY,
-      outputDir: bgDir,
     });
 
     console.log('[pipeline] rendering video');
     const videoPath = join(opts.workDir, 'output.mp4');
     await renderShort({
-      script, audioPath, backgroundPaths, timings, outputPath: videoPath,
+      script, audioPath: audio_data_url, backgroundPaths, timings, outputPath: videoPath,
     });
 
     if (opts.dryRun) {

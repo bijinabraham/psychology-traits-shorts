@@ -1,14 +1,12 @@
-import { writeFile } from 'node:fs/promises';
 import type { StructuredScript, SectionTiming, SectionKind } from './types.js';
 
 interface SynthOptions {
   apiKey: string;
   voiceId: string;
-  outputPath: string;
 }
 
 interface SynthResult {
-  audio_path: string;
+  audio_data_url: string; // data:audio/mpeg;base64,...
   timings: SectionTiming[];
 }
 
@@ -118,7 +116,7 @@ export async function synthesizeScript(
   }
 
   const combined = Buffer.concat(audioBuffers);
-  await writeFile(opts.outputPath, combined);
+  const audio_data_url = `data:audio/mpeg;base64,${combined.toString('base64')}`;
 
-  return { audio_path: opts.outputPath, timings };
+  return { audio_data_url, timings };
 }

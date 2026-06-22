@@ -1,9 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { writeFile } from 'node:fs/promises';
 import { fetchBackgroundsForScript } from '../asset-fetcher.js';
 import type { StructuredScript } from '../types.js';
-
-vi.mock('node:fs/promises');
 
 const script: StructuredScript = {
   bias_id: 'x',
@@ -21,7 +18,6 @@ const script: StructuredScript = {
 
 beforeEach(() => {
   vi.resetAllMocks();
-  vi.mocked(writeFile).mockResolvedValue(undefined);
 });
 
 afterEach(() => {
@@ -29,7 +25,7 @@ afterEach(() => {
 });
 
 describe('fetchBackgroundsForScript', () => {
-  it('returns 6 file paths, one per section, preferring portrait HD clips', async () => {
+  it('returns 6 CDN URLs, one per section, preferring portrait HD clips', async () => {
     const searchResponse = {
       videos: [
         {
@@ -37,37 +33,32 @@ describe('fetchBackgroundsForScript', () => {
           width: 1080,
           height: 1920,
           video_files: [
-            { quality: 'hd', width: 1080, height: 1920, link: 'https://example.com/portrait-hd.mp4' },
-            { quality: 'sd', width: 540, height: 960, link: 'https://example.com/portrait-sd.mp4' },
+            { quality: 'hd', width: 1080, height: 1920, link: 'https://cdn.pexels.com/portrait-hd.mp4' },
+            { quality: 'sd', width: 540, height: 960, link: 'https://cdn.pexels.com/portrait-sd.mp4' },
           ],
         },
       ],
     };
-    const fetchSpy = vi.spyOn(global, 'fetch')
-      .mockResolvedValue(new Response(JSON.stringify(searchResponse)))
-      .mockImplementation(async (url) => {
-        if (String(url).includes('api.pexels.com')) return new Response(JSON.stringify(searchResponse));
-        return new Response(Buffer.from('FAKEMP4'));
-      });
 
-    const paths = await fetchBackgroundsForScript(script, {
-      apiKey: 'pexels-key',
-      outputDir: '/tmp/bg',
-    });
+    const fetchSpy = vi.spyOn(global, 'fetch').mockImplementation(async () =>
+      new Response(JSON.stringify(searchResponse)),
+    );
 
-    expect(paths).toHaveLength(6);
-    expect(paths[0]).toBe('/tmp/bg/section-0.mp4');
-    expect(paths[5]).toBe('/tmp/bg/section-5.mp4');
-    expect(fetchSpy).toHaveBeenCalledTimes(12);
-    expect(writeFile).toHaveBeenCalledTimes(6);
+    const urls = await fetchBackgroundsForScript(script, { apiKey: 'pexels-key' });
+
+    expect(urls).toHaveLength(6);
+    expect(urls[0]).toBe('https://cdn.pexels.com/portrait-hd.mp4');
+    expect(urls[5]).toBe('https://cdn.pexels.com/portrait-hd.mp4');
+    // 6 search calls only — no downloads
+    expect(fetchSpy).toHaveBeenCalledTimes(6);
   });
 
   it('throws if Pexels returns no videos for a query', async () => {
-    vi.spyOn(global, 'fetch').mockResolvedValue(
+    vi.spyOn(global, 'fetch').mockImplementation(async () =>
       new Response(JSON.stringify({ videos: [] })),
     );
     await expect(
-      fetchBackgroundsForScript(script, { apiKey: 'k', outputDir: '/tmp' }),
+      fetchBackgroundsForScript(script, { apiKey: 'k' }),
     ).rejects.toThrow(/no pexels results/i);
   });
 });

@@ -59,9 +59,9 @@ beforeEach(() => {
   vi.mocked(selectNextBias).mockResolvedValue(bias);
   vi.mocked(selectBiasById).mockResolvedValue(bias);
   vi.mocked(loadScriptForBias).mockResolvedValue(script);
-  vi.mocked(synthesizeScript).mockResolvedValue({ audio_path: '/tmp/a.mp3', timings });
+  vi.mocked(synthesizeScript).mockResolvedValue({ audio_data_url: 'data:audio/mpeg;base64,FAKE', timings });
   vi.mocked(fetchBackgroundsForScript).mockResolvedValue(
-    Array.from({ length: 6 }, (_, i) => `/tmp/bg-${i}.mp4`),
+    Array.from({ length: 6 }, (_, i) => `https://cdn.pexels.com/section-${i}.mp4`),
   );
   vi.mocked(renderShort).mockResolvedValue(undefined);
   vi.mocked(uploadShort).mockResolvedValue('yt-vid-id');
