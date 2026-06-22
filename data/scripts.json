@@ -1,0 +1,902 @@
+[
+  {
+    "bias_id": "confirmation-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you only remember when your gut was right — the Confirmation Bias",
+    "description": "Your brain is a lawyer, not a scientist — it builds cases, not truth. The Confirmation Bias means you unconsciously seek out evidence that backs what you already believe and quietly ignore everything that doesn't.",
+    "tags": ["psychology", "cognitive bias", "confirmation bias", "critical thinking", "decision making", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "You ever notice how you remember every time your gut feeling was right, but you barely think about the times it was wrong?",
+        "on_screen": "You remember every time your gut was right.",
+        "broll_query": "ink water dark swirl"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "Think about the last time you changed your mind about something big. Not because someone convinced you — actually changed it on your own. It almost never happens. We read articles we already agree with, follow people who confirm our worldview, and unconsciously tune out anything that challenges it.",
+        "on_screen": "We read what we agree with. We ignore what we don't.",
+        "broll_query": "smoke abstract dark blue"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's Confirmation Bias.",
+        "on_screen": "Confirmation Bias",
+        "broll_query": "particles floating abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Confirmation Bias is the tendency to search for, interpret, and remember information in a way that confirms your existing beliefs. Your brain isn't trying to find the truth — it's trying to reduce the discomfort of uncertainty. Once you believe something, every new piece of information gets filtered through that belief first. Supporting evidence gets flagged and saved. Contradictory evidence gets dismissed as an exception or a fluke.",
+        "on_screen": "Your brain filters evidence to protect your beliefs.",
+        "broll_query": "neural network glowing abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "The disturbing part? The smarter you are, the better you are at rationalizing away contradicting evidence. Intelligence doesn't protect you from this bias — it actually makes you more skilled at defending whatever you already believe. More education often just means better excuses.",
+        "on_screen": "Smarter people are better at rationalizing their beliefs.",
+        "broll_query": "liquid metal flowing dark"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Most people watching this are already thinking of someone else who does this.",
+        "on_screen": "You're thinking of someone else right now, aren't you?",
+        "broll_query": "ink drop slow motion"
+      }
+    ]
+  },
+  {
+    "bias_id": "availability-heuristic",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you think plane crashes are more common than car crashes — the Availability Heuristic",
+    "description": "Your brain judges how likely something is by how easily you can picture it — not by the actual statistics. The Availability Heuristic is why vivid, memorable events feel more common than quiet, everyday ones.",
+    "tags": ["psychology", "cognitive bias", "availability heuristic", "risk perception", "memory", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Why do people fear sharks more than vending machines, even though vending machines kill more people every year?",
+        "on_screen": "Sharks vs vending machines. Which kills more?",
+        "broll_query": "ocean waves dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "When you try to figure out how dangerous something is, your brain doesn't run the statistics. It asks: how quickly can I picture a vivid example? Plane crashes make headlines for weeks. Car accidents happen every day but barely register. So flying feels terrifying and driving feels routine — even though statistically, you're way more likely to die on the road.",
+        "on_screen": "We judge risk by how vividly we can imagine it.",
+        "broll_query": "clouds abstract aerial dark"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Availability Heuristic.",
+        "on_screen": "Availability Heuristic",
+        "broll_query": "particles swirling slow motion"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Availability Heuristic is a mental shortcut where you estimate how common or likely something is based on how easily examples come to mind. If you can recall it quickly, your brain assumes it must happen a lot. Events that are dramatic, recent, or emotionally charged are easier to recall — so they feel more probable than they actually are. The quiet, undramatic truth gets systematically underestimated.",
+        "on_screen": "Memorable = feels probable. Boring = feels rare.",
+        "broll_query": "smoke wisps dark background"
+      },
+      {
+        "kind": "twist",
+        "voice": "This is why the news literally changes your risk perception. After a terrorist attack gets saturation coverage, people avoid planes and trains for months — even though the actual risk didn't change at all. The media doesn't just report reality. It reshapes what feels real.",
+        "on_screen": "The news doesn't just report risk. It creates it.",
+        "broll_query": "light flicker dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Watch how differently this feels depending on what news you consumed this week.",
+        "on_screen": "Your fear this week is someone else's headline.",
+        "broll_query": "water ripple dark ink"
+      }
+    ]
+  },
+  {
+    "bias_id": "anchoring-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why the first price you see changes how much you'll pay — the Anchoring Bias",
+    "description": "The first number you encounter in a negotiation or purchase becomes an invisible magnet pulling all your future estimates toward it. Anchoring is one of the most exploited biases in sales, pricing, and negotiation.",
+    "tags": ["psychology", "cognitive bias", "anchoring bias", "negotiation", "pricing", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Why does a $40 shirt feel like a deal when it's next to a $200 one — even if you'd never pay $200 for any shirt?",
+        "on_screen": "Why does $40 feel cheap next to $200?",
+        "broll_query": "abstract gold light bokeh"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "You walk into a store. The first price you see becomes the reference point for everything that follows. A $300 jacket seems reasonable after you've been browsing $800 ones. A salary offer of $50,000 pulls your counteroffer down even if you were worth $70,000. The first number sets the battlefield, and you spend the rest of the negotiation fighting on someone else's terms.",
+        "on_screen": "The first number sets the terms. Everything else is relative.",
+        "broll_query": "numbers falling abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's the Anchoring Bias.",
+        "on_screen": "Anchoring Bias",
+        "broll_query": "chain link abstract dark"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Anchoring happens when the first piece of numerical information you encounter has an outsized influence on all your subsequent estimates and decisions. Your brain doesn't evaluate numbers in a vacuum — it uses whatever came first as a baseline. Even arbitrary numbers work. In one study, asking people to spin a wheel before estimating the number of African countries in the UN changed their answers significantly based on whatever number the wheel landed on.",
+        "on_screen": "Even random numbers change your estimates.",
+        "broll_query": "spinning abstract vortex dark"
+      },
+      {
+        "kind": "twist",
+        "voice": "Retailers use this deliberately. The crossed-out original price is almost never what anything actually sold for. The \"was $199, now $99\" framing makes $99 feel like a bargain — even if $99 was always the intended price. You're not getting a deal. You're getting anchored.",
+        "on_screen": "The original price was never real.",
+        "broll_query": "price tag abstract light"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "What was the first salary you ever asked for — and did it shape the rest of your career?",
+        "on_screen": "Your first number follows you longer than you think.",
+        "broll_query": "ripple water surface dark"
+      }
+    ]
+  },
+  {
+    "bias_id": "sunk-cost-fallacy",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you finish bad movies just because you started them — the Sunk Cost Fallacy",
+    "description": "Money, time, or effort already spent should have zero effect on future decisions — but for most people, it dominates them. The Sunk Cost Fallacy keeps people in bad jobs, bad relationships, and bad movies.",
+    "tags": ["psychology", "cognitive bias", "sunk cost fallacy", "decision making", "behavioral economics", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "You're 45 minutes into a terrible movie. You know it's bad. But you keep watching — because you already spent 45 minutes on it.",
+        "on_screen": "45 minutes in. It's terrible. You keep watching.",
+        "broll_query": "film grain dark texture"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "This happens across every area of life. People stay in dead-end jobs because of how long they've been there. They hold onto losing stocks because they can't accept losing what they already put in. They continue useless college degrees because they've already paid two years of tuition. The past investment becomes a trap.",
+        "on_screen": "Past investment becomes a trap for future decisions.",
+        "broll_query": "abstract hourglass dark sand"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Sunk Cost Fallacy.",
+        "on_screen": "Sunk Cost Fallacy",
+        "broll_query": "water drain abstract swirl"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Sunk Cost Fallacy is when you continue investing in something — time, money, emotion — because of past investment rather than future value. Economically, a sunk cost is gone regardless of what you do next. It should be irrelevant to your decision. But psychologically, we can't let go. The fear of loss and the feeling of wasting what we've already put in overwhelms rational forward-looking thinking.",
+        "on_screen": "Sunk cost is gone. Your brain doesn't know that.",
+        "broll_query": "coins falling dark slow motion"
+      },
+      {
+        "kind": "twist",
+        "voice": "The best investors, gamblers, and executives share one unusual trait: they can walk away from a losing position without emotional pain. They treat past investment as information, not obligation. The rest of us pay twice — once when we invest, again when we can't let go.",
+        "on_screen": "The best decision-makers treat past costs as irrelevant.",
+        "broll_query": "fire embers dark slow motion"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "What are you still in — just because you've already put so much into it?",
+        "on_screen": "What are you still doing just because you started?",
+        "broll_query": "path dark fog abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "dunning-kruger-effect",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why beginners are overconfident and experts are full of doubt — the Dunning-Kruger Effect",
+    "description": "The least skilled people in a field often have the strongest opinions about it. The Dunning-Kruger Effect explains why competence and confidence travel in opposite directions — at least early on.",
+    "tags": ["psychology", "cognitive bias", "dunning kruger effect", "confidence", "expertise", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Ever notice that the person with the loudest opinion in a room often knows the least about the topic?",
+        "on_screen": "Loudest opinion. Least knowledge.",
+        "broll_query": "megaphone abstract dark light"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "After one week of a new hobby, people feel like they've got it figured out. After one year, they realize how little they actually knew at the start. After ten years, they're genuinely uncertain about things they once felt certain about. Beginners feel like experts. Actual experts feel like beginners.",
+        "on_screen": "Beginners feel like experts. Experts feel like beginners.",
+        "broll_query": "mountain peak clouds abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Dunning-Kruger Effect.",
+        "on_screen": "Dunning-Kruger Effect",
+        "broll_query": "graph line rising abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Dunning-Kruger Effect is a cognitive bias where people with limited knowledge in a domain overestimate their own competence. The reason is simple: to evaluate your skill accurately, you need the same knowledge that would make you skilled in the first place. Beginners don't know what they don't know — so they can't see the gaps. As expertise grows, so does awareness of complexity, which is why experts hedge and qualify while novices speak in certainties.",
+        "on_screen": "You need skill to know how unskilled you are.",
+        "broll_query": "spiral staircase dark abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "The peak of the Dunning-Kruger curve is called the peak of Mount Stupid. And here's the unsettling part — you can only recognize that you were on Mount Stupid after you've come down from it. While you're up there, it just feels like confidence.",
+        "on_screen": "While you're on Mount Stupid, it just feels like confidence.",
+        "broll_query": "fog mountain dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "If you think you might have this bias — that's actually a good sign.",
+        "on_screen": "Thinking you have it means you're past the worst of it.",
+        "broll_query": "mirror reflection abstract dark"
+      }
+    ]
+  },
+  {
+    "bias_id": "hindsight-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you say \"I knew it all along\" after something bad happens — the Hindsight Bias",
+    "description": "After an event occurs, our memory quietly rewrites history to make the outcome feel inevitable. Hindsight Bias is why history seems obvious in retrospect — and why we learn less from failures than we should.",
+    "tags": ["psychology", "cognitive bias", "hindsight bias", "memory", "decision making", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "The morning after a big election result or a stock market crash, how many people suddenly claim they saw it coming all along?",
+        "on_screen": "\"I knew it all along\" — but did you?",
+        "broll_query": "clock hands dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "Once you know how something turned out, it feels inevitable. The signs seem obvious. The warning signals are suddenly clear. But before it happened, you had no such certainty. Your memory quietly edits your past predictions to match the current outcome — and the edit is so seamless you genuinely believe it.",
+        "on_screen": "Memory edits your past predictions to match the outcome.",
+        "broll_query": "old film reel abstract dark"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's Hindsight Bias.",
+        "on_screen": "Hindsight Bias",
+        "broll_query": "backward clock dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Hindsight Bias is the tendency, after learning an outcome, to believe you had predicted it beforehand. Once we know something happened, our brains reorganize information to make it feel like it was always the most likely result. We unknowingly update our memories to be consistent with what we now know. This creates an illusion of knowledge and predictive ability — which is dangerous because it makes us overconfident about our ability to predict the future.",
+        "on_screen": "Knowing the outcome rewrites your memory of the past.",
+        "broll_query": "rewind tape dark texture"
+      },
+      {
+        "kind": "twist",
+        "voice": "Hindsight Bias is one reason we don't learn well from failures. If a project fails and it seems obvious in retrospect, we blame the people involved for being foolish — instead of fixing the system that made the decision. We punish outcomes instead of learning from the process.",
+        "on_screen": "We blame people instead of fixing systems.",
+        "broll_query": "shattered glass slow motion dark"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "After this video ends, watch how quickly hindsight shapes what you think you believed before watching it.",
+        "on_screen": "Will you remember what you thought before watching this?",
+        "broll_query": "sand timer dark slow motion"
+      }
+    ]
+  },
+  {
+    "bias_id": "halo-effect",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why attractive people seem smarter and more trustworthy — the Halo Effect",
+    "description": "One positive trait — physical attractiveness, a confident smile, a prestigious title — bleeds into how we evaluate everything else about a person. The Halo Effect is the invisible filter distorting nearly every human judgment we make.",
+    "tags": ["psychology", "cognitive bias", "halo effect", "attractiveness", "first impressions", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Studies show that attractive defendants receive shorter prison sentences. Not because judges are corrupt — because they're human.",
+        "on_screen": "Attractive defendants get shorter sentences.",
+        "broll_query": "courtroom abstract dark light"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "When we see someone who's good-looking, we unconsciously assume they're also smarter, kinder, and more competent. When someone gives a great first handshake, we trust their ideas more in the meeting that follows. One positive trait floods our evaluation of all their other traits — whether or not those are connected.",
+        "on_screen": "One good trait floods how we see everything else.",
+        "broll_query": "golden light bokeh soft"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Halo Effect.",
+        "on_screen": "Halo Effect",
+        "broll_query": "halo light abstract glow"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Halo Effect is when our impression of one positive trait creates a general positive impression that influences all subsequent evaluations. It's a cognitive shortcut — instead of evaluating each characteristic independently, your brain builds an overall impression and filters everything through it. The same person described as cold versus warm was rated completely differently on completely unrelated traits like intelligence, humor, and ambition.",
+        "on_screen": "One trait shapes your judgment of all the others.",
+        "broll_query": "prism light refraction abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "The Halo Effect works in reverse too — it's called the Horn Effect. One negative trait can taint everything else. Someone who dresses poorly in an interview might have their ideas dismissed without examination. We don't evaluate people. We experience them through a filter, then call it judgment.",
+        "on_screen": "One flaw can corrupt your entire evaluation.",
+        "broll_query": "shadow dark abstract wall"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Who in your life gets the benefit of the doubt because of one thing you like about them?",
+        "on_screen": "Who do you forgive too easily — and why?",
+        "broll_query": "light ray dark room abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "loss-aversion",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why losing $50 feels twice as bad as winning $50 feels good — Loss Aversion",
+    "description": "Losses hit harder than equivalent gains — roughly twice as hard, according to research. Loss Aversion explains why people hold losing investments too long, play it safe when they shouldn't, and make decisions that protect against loss instead of pursuing gain.",
+    "tags": ["psychology", "cognitive bias", "loss aversion", "behavioral economics", "decision making", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Imagine I offered you a coin flip: heads you win $100, tails you lose $50. It's a great bet mathematically. Most people still say no.",
+        "on_screen": "Win $100 or lose $50. Most people say no.",
+        "broll_query": "coin flip slow motion dark"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "The pain of losing $50 feels significantly more intense than the pleasure of gaining $50. So people refuse bets that are clearly in their favor, avoid selling investments that have dropped, and hold onto possessions they wouldn't pay to acquire just because they're afraid of feeling the loss.",
+        "on_screen": "The pain of losing outweighs the pleasure of gaining.",
+        "broll_query": "scale balance dark abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's Loss Aversion.",
+        "on_screen": "Loss Aversion",
+        "broll_query": "falling glass dark slow motion"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Loss Aversion is the tendency to prefer avoiding losses over acquiring equivalent gains. Psychologists Kahneman and Tversky found that losses feel roughly twice as powerful as gains of the same magnitude. This asymmetry shaped our evolution — losing food or resources in early human life was catastrophic, while gaining the same amount was merely pleasant. The problem is that our modern environment is full of bets where loss aversion works against us.",
+        "on_screen": "Losses feel twice as powerful as equivalent gains.",
+        "broll_query": "graph line dropping dark"
+      },
+      {
+        "kind": "twist",
+        "voice": "Marketers figured this out decades ago. \"Don't miss out\" outperforms \"take advantage of this.\" Free trial endings that feel like losses convert better than sign-up bonuses that feel like gains. Every FOMO message you've ever felt was engineered using your loss aversion against you.",
+        "on_screen": "\"Don't miss out\" is engineered to exploit this.",
+        "broll_query": "timer countdown dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "What have you held onto way too long — just to avoid feeling like you lost?",
+        "on_screen": "What are you holding just to avoid the feeling of loss?",
+        "broll_query": "hand holding dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "gamblers-fallacy",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you think a coin is \"due\" for heads after five tails — the Gambler's Fallacy",
+    "description": "Random events have no memory. But our brains are pattern-seeking machines that refuse to accept true randomness. The Gambler's Fallacy is why we see inevitability in streaks — and why casinos never run out of customers.",
+    "tags": ["psychology", "cognitive bias", "gamblers fallacy", "probability", "randomness", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "A roulette wheel lands on red seven times in a row. You feel absolutely certain black is overdue. But the wheel has no memory.",
+        "on_screen": "Red seven times. Black must be next. But the wheel forgets.",
+        "broll_query": "roulette wheel dark spin abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "We see patterns in random sequences and assume the sequence is self-correcting — that a run of heads makes tails more likely. Parents of two boys often feel their third child \"should\" be a girl. Investors buy stocks that have dropped several days in a row, assuming a bounce is due. None of this is how probability works.",
+        "on_screen": "We feel random sequences must self-correct. They don't.",
+        "broll_query": "dice rolling dark slow motion"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Gambler's Fallacy.",
+        "on_screen": "Gambler's Fallacy",
+        "broll_query": "cards shuffling dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Gambler's Fallacy is the mistaken belief that if something happens more frequently than normal during a period, it will happen less frequently in the future — or vice versa. Independent random events don't influence each other. A fair coin has exactly 50% odds on every single flip regardless of what came before. But our brains evolved to detect patterns in nature, where true randomness is rare — so we project patterns where none exist.",
+        "on_screen": "Independent events have no memory of each other.",
+        "broll_query": "coin spinning dark slow motion"
+      },
+      {
+        "kind": "twist",
+        "voice": "Casinos exploit this precisely. Hot tables attract more gamblers. A losing streak feels like it must turn around soon. The house doesn't need to cheat — it just needs you to keep playing long enough for the math to catch up. Streaks feel meaningful. They never are.",
+        "on_screen": "The casino only needs you to keep playing.",
+        "broll_query": "neon lights dark abstract blur"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Think of a streak in your own life. Did you think it was \"due\" to change?",
+        "on_screen": "Your streak has no idea it's a streak.",
+        "broll_query": "water drops pattern dark"
+      }
+    ]
+  },
+  {
+    "bias_id": "framing-effect",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why \"95% fat free\" sells better than \"contains 5% fat\" — the Framing Effect",
+    "description": "The same information can produce opposite decisions depending solely on how it's presented. The Framing Effect shows that we don't respond to facts — we respond to the way facts are packaged.",
+    "tags": ["psychology", "cognitive bias", "framing effect", "communication", "persuasion", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "A surgery with a 90% survival rate and a 10% mortality rate are identical. But patients choose the surgery far more often when told the survival rate.",
+        "on_screen": "90% survival rate. 10% death rate. Same surgery.",
+        "broll_query": "text typography dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "\"Save 200 lives\" versus \"400 lives will be lost\" — same policy, completely different emotional response. Ground beef labeled 75% lean sells better than 25% fat. We respond to the frame, not the content. The logic is identical, but one version activates loss aversion and the other activates hope.",
+        "on_screen": "Same fact. Different frame. Completely different feeling.",
+        "broll_query": "picture frame dark abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Framing Effect.",
+        "on_screen": "Framing Effect",
+        "broll_query": "window frame dark light"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Framing Effect is when the presentation of information — rather than its content — influences judgment and choice. Positive frames emphasize gains. Negative frames emphasize losses. Because losses feel more powerful than gains, negatively framed information triggers stronger emotional reactions. We don't process information neutrally — we absorb it through the emotional lens the presenter chose for us.",
+        "on_screen": "We absorb the emotion the presenter chose, not the data.",
+        "broll_query": "lens refraction abstract dark"
+      },
+      {
+        "kind": "twist",
+        "voice": "Every political speech, every advertisement, every product description is a framing decision. The same fact can make you feel safe or threatened, generous or ripped off, healthy or at risk — depending on a single word choice. You think you're responding to reality. You're responding to someone's construction of it.",
+        "on_screen": "Every word choice is a framing decision.",
+        "broll_query": "words dissolving dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Reframe the last bad thing that happened to you. Does it feel different?",
+        "on_screen": "Same event. Different frame. Try it.",
+        "broll_query": "mirror tilt dark reflection"
+      }
+    ]
+  },
+  {
+    "bias_id": "fundamental-attribution-error",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you blame drivers' character but excuse your own driving — the Fundamental Attribution Error",
+    "description": "When others mess up, we blame their character. When we mess up, we blame the situation. This one asymmetry explains a staggering amount of conflict, judgment, and misunderstanding between people.",
+    "tags": ["psychology", "cognitive bias", "fundamental attribution error", "social psychology", "judgment", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Someone cuts you off in traffic. You think: that person is a reckless idiot. When you cut someone off — you were late, the lane was merging, it was urgent.",
+        "on_screen": "They're reckless. You were just late.",
+        "broll_query": "road dark abstract blur motion"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "We judge others by their behavior and ourselves by our intentions. When someone snaps at you, they have a bad personality. When you snap at someone, you were stressed and tired. When a stranger is rude, that's who they are. When you're rude, it's circumstances. We live inside our own context. Others only see our actions.",
+        "on_screen": "We judge others by actions. Ourselves by intentions.",
+        "broll_query": "shadow silhouette dark abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Fundamental Attribution Error.",
+        "on_screen": "Fundamental Attribution Error",
+        "broll_query": "two sides mirror dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Fundamental Attribution Error is the tendency to overemphasize dispositional factors — personality, character — when explaining other people's behavior, while underemphasizing situational factors. For our own behavior, we flip it — situation dominates. The reason is access: we have complete knowledge of our own context and almost none of others'. So we fill the gap with character.",
+        "on_screen": "We fill in others' context with character judgments.",
+        "broll_query": "puzzle piece dark abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "This error is the fuel for most interpersonal conflict. It's why you think your coworker is lazy instead of overwhelmed. Why you think your partner is selfish instead of scared. Once you see this bias, you can't unsee it — and that one shift in perspective can change nearly every relationship you have.",
+        "on_screen": "This one bias drives most human conflict.",
+        "broll_query": "crack wall dark texture"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Think of someone who frustrates you. What if their behavior makes complete sense given context you don't have?",
+        "on_screen": "What context are you missing about them?",
+        "broll_query": "fog road dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "status-quo-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you keep your default settings even when better options exist — Status Quo Bias",
+    "description": "The brain treats change as a potential loss and inaction as safe — even when staying the same is objectively worse. Status Quo Bias explains why we keep terrible phone plans, inefficient habits, and relationships we've outgrown.",
+    "tags": ["psychology", "cognitive bias", "status quo bias", "decision making", "change", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Most people have never changed their phone plan, their insurance, or their email app — even when they know better options exist and switching takes 10 minutes.",
+        "on_screen": "You know a better option exists. You haven't switched.",
+        "broll_query": "door closed dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "People keep default settings on their devices. They vote for incumbent politicians even when dissatisfied. They stay in cities, jobs, and relationships that stopped serving them years ago. The familiar path feels safe — not because it's the best choice, but because it's the known one. Change, even positive change, carries the psychological weight of potential loss.",
+        "on_screen": "Familiar feels safe. Change feels like risk.",
+        "broll_query": "crossroads dark fog abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's Status Quo Bias.",
+        "on_screen": "Status Quo Bias",
+        "broll_query": "clock frozen dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Status Quo Bias is the preference for the current state of affairs, where any change from the baseline is perceived as a loss. It's powered by loss aversion and the endowment effect — we overvalue what we already have, and change risks losing it. Inertia also plays a role: doing nothing requires no decision, no justification, and no accountability. The status quo is the path of least psychological resistance.",
+        "on_screen": "Doing nothing requires no decision. That's the appeal.",
+        "broll_query": "still water surface dark"
+      },
+      {
+        "kind": "twist",
+        "voice": "Defaults are the most powerful design decision in history. Organ donation rates differ by 40 percentage points between countries — not because of different values, but because of whether the default is opt-in or opt-out. You don't choose your defaults. Someone else does, and you inherit them.",
+        "on_screen": "Defaults shape mass behavior at scale.",
+        "broll_query": "switch toggle dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "What default in your life have you never questioned — because questioning it feels like effort?",
+        "on_screen": "What defaults are running your life unchallenged?",
+        "broll_query": "autopilot plane dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "bandwagon-effect",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you're more likely to like a restaurant with a line out the door — the Bandwagon Effect",
+    "description": "We are fundamentally social animals, and we use other people's choices as information about what's good. The Bandwagon Effect turns popularity into self-reinforcing proof of quality — whether or not quality has anything to do with it.",
+    "tags": ["psychology", "cognitive bias", "bandwagon effect", "social proof", "herd behavior", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Two identical restaurants side by side. One has a full parking lot. The other is empty. Which one do you assume is better?",
+        "on_screen": "Full vs empty. Same quality. Which do you choose?",
+        "broll_query": "crowd line dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "When everyone is buying something, we assume there must be a reason. When a book has a million reviews, we trust it more — regardless of what the reviews say. When laughter plays on a TV show, we find the jokes funnier. We use the behavior of the crowd as a shortcut for quality — and we're rarely aware we're doing it.",
+        "on_screen": "Crowd behavior becomes a shortcut for quality.",
+        "broll_query": "herd movement dark abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Bandwagon Effect.",
+        "on_screen": "Bandwagon Effect",
+        "broll_query": "wave motion dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Bandwagon Effect is the tendency to adopt beliefs, behaviors, or products because other people are doing so. It's rooted in social proof — a real cognitive shortcut where majority behavior serves as evidence of correctness. In evolutionary terms, following the group's judgment about what's safe to eat, where to shelter, or who to trust was often the rational choice. In modern markets, it creates bubbles, trends, and viral content with no quality filter.",
+        "on_screen": "Social proof is a shortcut that works — until it doesn't.",
+        "broll_query": "domino chain dark slow motion"
+      },
+      {
+        "kind": "twist",
+        "voice": "The bandwagon effect is what makes fake reviews, fake follower counts, and empty restaurants with a planted line outside viable business strategies. Popularity manufactures more popularity. Once something reaches critical mass, its quality becomes almost irrelevant — momentum is the product.",
+        "on_screen": "Popularity manufactures more popularity.",
+        "broll_query": "snowball rolling dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Think of something you believed was good — mainly because everyone else said so.",
+        "on_screen": "Is it good, or just popular?",
+        "broll_query": "ripple crowd dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "planning-fallacy",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why every project takes twice as long as you planned — the Planning Fallacy",
+    "description": "We consistently underestimate how long tasks will take while ignoring all historical evidence that we always underestimate. The Planning Fallacy is why construction projects, software launches, and personal goals almost universally run late.",
+    "tags": ["psychology", "cognitive bias", "planning fallacy", "time estimation", "productivity", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "The Sydney Opera House was supposed to take 4 years and cost 7 million dollars. It took 14 years and cost 102 million.",
+        "on_screen": "4 years, $7M planned. 14 years, $102M actual.",
+        "broll_query": "construction blueprint dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "Almost every major infrastructure project runs massively over time and budget. Software launches miss deadlines by months or years. Students finish assignments hours after the deadline they felt confident about a week earlier. And when you ask people why their last project ran late — they explain it as a unique set of problems. Not a pattern.",
+        "on_screen": "Always late. Always a \"unique\" explanation.",
+        "broll_query": "hourglass dark sand falling"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's the Planning Fallacy.",
+        "on_screen": "Planning Fallacy",
+        "broll_query": "calendar pages turning dark"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Planning Fallacy is the tendency to underestimate the time, costs, and risks of a task while overestimating its benefits. It happens because we plan using our best-case scenario while ignoring the statistical record of how things actually go. We focus on the project itself instead of comparing it to similar projects. The outside view — what happened last time — gets replaced by the inside view — what we hope happens this time.",
+        "on_screen": "We plan for best-case and ignore the base rate.",
+        "broll_query": "timeline arrow dark abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "The cure is brutal and counterintuitive: ignore your plan and look at what similar projects actually took. This is called reference class forecasting. NASA uses it. Infrastructure consultants swear by it. And yet most people still plan based on hope rather than evidence — every time.",
+        "on_screen": "The fix: ignore your plan, look at similar projects.",
+        "broll_query": "data chart dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "How long did you originally think this video would take to watch?",
+        "on_screen": "You underestimated. You always do.",
+        "broll_query": "watch ticking dark close up"
+      }
+    ]
+  },
+  {
+    "bias_id": "survivorship-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you only hear success stories and never the failures — Survivorship Bias",
+    "description": "We draw conclusions from the winners we can observe while ignoring the losers we can't. Survivorship Bias distorts business advice, health studies, and career guidance — by systematically hiding the people and outcomes that didn't make it.",
+    "tags": ["psychology", "cognitive bias", "survivorship bias", "statistics", "decision making", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "In World War Two, analysts studied bullet holes in returned planes and suggested adding armor there. One statistician pointed out the problem: they were only studying the planes that came back.",
+        "on_screen": "Armor where the bullet holes were. Wrong answer.",
+        "broll_query": "plane silhouette dark sky"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "Every successful entrepreneur tells you how they made it. You never hear from the thousands who tried the exact same thing and failed. Every diet book was written by someone it worked for — not the millions it didn't. \"Follow your passion\" advice comes from people whose passion happened to be marketable. The failures are invisible, so the advice looks universal.",
+        "on_screen": "We only learn from the survivors. They're not representative.",
+        "broll_query": "spotlight dark stage abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is Survivorship Bias.",
+        "on_screen": "Survivorship Bias",
+        "broll_query": "one light dark many abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Survivorship Bias is the logical error of focusing on entities that passed a selection process while ignoring those that did not. Because failures are often invisible — they stop talking, stop posting, stop showing up — the survivors distort our sense of what's typical, what's achievable, and what strategies work. We see a skewed sample and treat it as the full picture.",
+        "on_screen": "Failures go silent. Survivors distort the sample.",
+        "broll_query": "crowd thinning dark abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "Music from \"the good old days\" sounds better because only the best songs survived. Old buildings seem solid because the weak ones fell down. Ancient wisdom seems profound because only the wisdom that proved useful got passed on. You're not experiencing the past — you're experiencing what the past filtered down to you.",
+        "on_screen": "The past looks golden because the rest didn't survive.",
+        "broll_query": "gold filter dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Before you follow advice, ask: who is not in the room telling you this didn't work?",
+        "on_screen": "Who's not in the room? That's who you need to hear.",
+        "broll_query": "empty chairs dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "optimism-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you think you're less likely than average to get sick or divorced — Optimism Bias",
+    "description": "Most people believe they are more likely than average to have positive experiences and less likely than average to have negative ones. This mathematical impossibility affects everything from seatbelt use to retirement planning.",
+    "tags": ["psychology", "cognitive bias", "optimism bias", "risk perception", "self perception", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Half of all marriages end in divorce. But almost no one getting married thinks it will happen to them. Statistically, one of them is wrong.",
+        "on_screen": "Half of marriages end in divorce. Not yours, right?",
+        "broll_query": "wedding rings dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "Most people think they're more likely than average to succeed, less likely than average to get cancer, safer than average behind the wheel, and more resilient than average to life setbacks. You can't all be right. More than 50% of people cannot simultaneously be better than average. And yet most of us walk around with exactly that belief.",
+        "on_screen": "Most people think they're above average risk-wise. Most are wrong.",
+        "broll_query": "scale floating dark abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's the Optimism Bias.",
+        "on_screen": "Optimism Bias",
+        "broll_query": "sun rays dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Optimism Bias is the tendency to overestimate the likelihood of positive events and underestimate the likelihood of negative ones compared to reality. It's partly driven by selective thinking: we imagine our own future by focusing on our best traits and intentions, while imagining others' futures more statistically. We give ourselves the benefit of the doubt in ways we don't extend to others.",
+        "on_screen": "We estimate our future with hope. Others' with statistics.",
+        "broll_query": "bright horizon dark foreground"
+      },
+      {
+        "kind": "twist",
+        "voice": "Optimism Bias isn't entirely bad. It motivates action, promotes resilience, and makes life feel more worth living. The problem is calibration — specifically in domains involving safety, health, or financial planning. Unrealistic optimism about car safety is why people speed. About retirement is why people don't save enough.",
+        "on_screen": "Optimism bias motivates — until it kills your planning.",
+        "broll_query": "road ahead dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Think of a risk in your life you've assumed doesn't apply to you. Are you sure you have evidence for that?",
+        "on_screen": "What risk have you exempted yourself from?",
+        "broll_query": "shield dark abstract glow"
+      }
+    ]
+  },
+  {
+    "bias_id": "negativity-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why one bad review sticks with you longer than ten great ones — Negativity Bias",
+    "description": "Negative experiences, events, and information have a disproportionately greater effect on our psychology than positive ones of equal intensity. Negativity Bias is why bad news travels faster, bad memories linger longer, and one criticism can erase a hundred compliments.",
+    "tags": ["psychology", "cognitive bias", "negativity bias", "memory", "emotions", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "You get nine glowing performance reviews and one harsh one. Which one do you think about at 2am?",
+        "on_screen": "9 great reviews. 1 bad one. Which keeps you up?",
+        "broll_query": "storm dark clouds abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "It takes approximately five positive interactions to overcome one negative one in a relationship. Bad first impressions are dramatically harder to reverse than good ones. People process loss and insult faster than gain and praise. The brain allocates more neural real estate, more processing time, and more long-term storage to negative events than to equivalent positive ones.",
+        "on_screen": "Bad sticks harder and longer than equally good.",
+        "broll_query": "dark ink spreading water"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is Negativity Bias.",
+        "on_screen": "Negativity Bias",
+        "broll_query": "shadow creeping dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Negativity Bias is the tendency to give more weight to negative events and information relative to equally positive ones. It evolved for survival: missing a positive opportunity was unfortunate, but missing a threat could be fatal. The brain has a negativity detection system that fires faster and more powerfully than its positive counterpart. Bad is stronger than good — neurologically, not just emotionally.",
+        "on_screen": "Negative events are processed faster and stored longer.",
+        "broll_query": "alert signal dark abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "This is why political attack ads work better than positive ones. Why you remember embarrassing moments from 20 years ago more vividly than triumphs. Why news organizations lead with disasters. And why you can ruin a great day with a single argument. Your brain is scanning for threats, not cataloging wins.",
+        "on_screen": "Your brain is scanning for threats, not cataloging wins.",
+        "broll_query": "radar scan dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "What's a compliment you received recently that you almost immediately discounted?",
+        "on_screen": "When did someone say something good — and you deflected it?",
+        "broll_query": "water reflection dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "recency-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you think the stock market will keep doing whatever it just did — Recency Bias",
+    "description": "Recent events weigh far too heavily in our predictions and judgments. Recency Bias explains why market bubbles form, why sports teams get overvalued after a hot streak, and why we consistently mistake short-term trends for long-term reality.",
+    "tags": ["psychology", "cognitive bias", "recency bias", "investing", "prediction", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "After three years of rising stock markets, surveys show investors expect the same trend to continue. Then it crashes. It always surprises them.",
+        "on_screen": "Three years up. Investors expect more up. Crash.",
+        "broll_query": "graph line dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "When the economy has been good for two years, people assume it will keep being good. When it's been bad for six months, it feels like it will never improve. A cold winter makes people skeptical of global warming. A hot summer makes them believe in it again. We mistake what just happened for what will always happen.",
+        "on_screen": "What just happened feels like what will always happen.",
+        "broll_query": "rear view mirror dark road"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "That's Recency Bias.",
+        "on_screen": "Recency Bias",
+        "broll_query": "news headlines dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "Recency Bias is the tendency to weigh recent events more heavily than older ones when making decisions or predictions. It's partly a memory effect: recent events are more vivid and accessible, so they feel more representative of reality. It's also an availability issue — what you just experienced is easiest to recall, so it dominates your model of the world. This creates systematic errors in any domain involving trends over time.",
+        "on_screen": "Recent events feel more representative than they are.",
+        "broll_query": "spotlight dark recent abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "Recency Bias is why people hire aggressively at market peaks and lay off at market troughs — exactly the wrong time. Why they buy assets that have already soared and sell ones that have already crashed. The feeling of certainty scales with recency, not with evidence. And that gap is where fortunes are lost.",
+        "on_screen": "Certainty scales with recency, not with evidence.",
+        "broll_query": "bubble popping dark slow motion"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "What recent event are you treating as permanent that is almost certainly temporary?",
+        "on_screen": "What feels permanent now that won't be?",
+        "broll_query": "wave crash dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "in-group-bias",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you unconsciously trust people from your hometown more — In-Group Bias",
+    "description": "We favor people who belong to the same groups as us — race, nationality, sports team, university, even arbitrary assigned groups. In-Group Bias is one of the most powerful and universal patterns in human social behavior.",
+    "tags": ["psychology", "cognitive bias", "in group bias", "social psychology", "tribalism", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "In a study, people were randomly assigned to groups based on a coin flip. Minutes later, they were already favoring members of their own group in resource allocation.",
+        "on_screen": "Random group. Minutes later. Already showing favoritism.",
+        "broll_query": "group circle dark abstract"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "You trust a recommendation more from someone who went to the same university as you, even if you've never met. You give more charitable interpretations to the bad behavior of people from your hometown, your country, your sports team. You feel a stranger's mistake is careless, but a team member's mistake was bad luck. The group membership changes the evaluation — automatically and unconsciously.",
+        "on_screen": "Same group = more trust, more forgiveness.",
+        "broll_query": "team huddle dark abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is In-Group Bias.",
+        "on_screen": "In-Group Bias",
+        "broll_query": "us versus them dark abstract"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "In-Group Bias is the tendency to favor members of one's own group over outsiders. It emerges from social identity theory — we partly define ourselves through the groups we belong to, so the success or trustworthiness of our group reflects on us. Even arbitrarily assigned groups trigger this bias within minutes. The in-group gets the benefit of the doubt. The out-group gets stereotypes.",
+        "on_screen": "Our group's success reflects on our identity.",
+        "broll_query": "shield crest dark abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "This bias is so automatic that merely learning someone shares your obscure birth month increases trust. It's not logic — it's pattern matching on perceived similarity. And this is the mechanism behind nearly every form of tribalism, nepotism, and discrimination. Not hatred. Not ideology. Just a three-second tribal categorization your brain makes before you're even aware of it.",
+        "on_screen": "Tribalism isn't ideology. It's a 3-second reflex.",
+        "broll_query": "clock seconds ticking dark"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "Who do you trust automatically — just because they're like you in one specific way?",
+        "on_screen": "What's your group, and who does it make you distrust?",
+        "broll_query": "line divide dark abstract"
+      }
+    ]
+  },
+  {
+    "bias_id": "bystander-effect",
+    "generated_at": "2026-06-22T12:30:00Z",
+    "title": "Why you're less likely to help in an emergency when others are watching — the Bystander Effect",
+    "description": "The more people witness an emergency, the less likely any individual is to intervene. The Bystander Effect is a counterintuitive discovery that turned how we think about collective human behavior completely upside down.",
+    "tags": ["psychology", "cognitive bias", "bystander effect", "social psychology", "helping behavior", "mental quirks"],
+    "sections": [
+      {
+        "kind": "hook",
+        "voice": "Kitty Genovese was attacked outside her apartment building in 1964. Over 30 witnesses heard the attack. Not one called the police until it was too late.",
+        "on_screen": "30 witnesses. No one called for help.",
+        "broll_query": "apartment windows dark night"
+      },
+      {
+        "kind": "phenomenon",
+        "voice": "In studies, when someone appears to have a seizure in front of one person, help arrives in seconds. Add four bystanders, and response time jumps to minutes. The presence of others reduces individual responsibility. Everybody assumes someone else will do it. No one does.",
+        "on_screen": "More people watching = less likely anyone helps.",
+        "broll_query": "crowd standing dark abstract"
+      },
+      {
+        "kind": "bias_name",
+        "voice": "This is the Bystander Effect.",
+        "on_screen": "Bystander Effect",
+        "broll_query": "watching silhouettes dark"
+      },
+      {
+        "kind": "mechanism",
+        "voice": "The Bystander Effect emerges from two psychological processes. First: diffusion of responsibility — each person assumes someone else will act, diluting any one person's felt obligation. Second: pluralistic ignorance — we look at others for cues, and when everyone else appears calm, we assume there's no emergency. Both effects compound. The more bystanders, the more powerful both forces become.",
+        "on_screen": "Diffusion of responsibility + pluralistic ignorance = no help.",
+        "broll_query": "empty hands dark abstract"
+      },
+      {
+        "kind": "twist",
+        "voice": "Knowing about the Bystander Effect is one of the few biases where awareness actually changes behavior. If you're ever in an emergency and you need help from a crowd, don't shout \"somebody help.\" Point at one person and say: \"You, in the red jacket — call 911.\" Eliminate the diffusion. Name the responsibility.",
+        "on_screen": "\"YOU — call 911.\" Naming one person breaks the effect.",
+        "broll_query": "finger pointing dark abstract"
+      },
+      {
+        "kind": "loop_bait",
+        "voice": "The next time you're in a crowd and something feels wrong — will you be the one who acts?",
+        "on_screen": "You know about it now. Does that change what you'll do?",
+        "broll_query": "crowd parting dark abstract"
+      }
+    ]
+  }
+]
