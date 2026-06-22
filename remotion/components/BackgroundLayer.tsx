@@ -20,7 +20,7 @@ export const BackgroundLayer: React.FC<Props> = ({ backgroundPaths, timings }) =
         const startFrame = Math.round((t.start_ms / 1000) * fps);
         const endFrame = Math.round((t.end_ms / 1000) * fps);
         const duration = endFrame - startFrame;
-        const fadeFrames = Math.round((CROSSFADE_MS / 1000) * fps);
+        const fadeFrames = Math.min(Math.round((CROSSFADE_MS / 1000) * fps), Math.floor(duration / 2));
         const opacity = interpolate(
           frame,
           [startFrame - fadeFrames, startFrame, endFrame - fadeFrames, endFrame],
@@ -28,15 +28,19 @@ export const BackgroundLayer: React.FC<Props> = ({ backgroundPaths, timings }) =
           { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' },
         );
 
+        const videoSrc = backgroundPaths[i];
+
         return (
           <Sequence key={i} from={Math.max(0, startFrame - fadeFrames)} durationInFrames={duration + fadeFrames * 2}>
             <AbsoluteFill style={{ opacity, filter: 'saturate(0.7)' }}>
-              <OffthreadVideo
-                src={backgroundPaths[i]}
-                playbackRate={0.5}
-                muted
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
+              {videoSrc && (
+                <OffthreadVideo
+                  src={videoSrc}
+                  playbackRate={0.5}
+                  muted
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              )}
               <AbsoluteFill style={{ backgroundColor: THEME.colors.overlayBg }} />
             </AbsoluteFill>
           </Sequence>
