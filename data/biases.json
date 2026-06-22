@@ -1,0 +1,1759 @@
+[
+  {
+    "id": "confirmation-bias",
+    "name": "Confirmation Bias",
+    "one_line_hook": "Why you only remember the times your gut feeling was right",
+    "source_link": "https://en.wikipedia.org/wiki/Confirmation_bias",
+    "used_at": null
+  },
+  {
+    "id": "availability-heuristic",
+    "name": "Availability Heuristic",
+    "one_line_hook": "Why you think plane crashes are more common than car crashes",
+    "source_link": "https://en.wikipedia.org/wiki/Availability_heuristic",
+    "used_at": null
+  },
+  {
+    "id": "anchoring-bias",
+    "name": "Anchoring Bias",
+    "one_line_hook": "Why the first price you see changes how much you're willing to pay",
+    "source_link": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)",
+    "used_at": null
+  },
+  {
+    "id": "sunk-cost-fallacy",
+    "name": "Sunk Cost Fallacy",
+    "one_line_hook": "Why you finish bad movies just because you already paid for them",
+    "source_link": "https://en.wikipedia.org/wiki/Sunk_cost",
+    "used_at": null
+  },
+  {
+    "id": "dunning-kruger-effect",
+    "name": "Dunning-Kruger Effect",
+    "one_line_hook": "Why beginners are overconfident and experts are full of doubt",
+    "source_link": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+    "used_at": null
+  },
+  {
+    "id": "hindsight-bias",
+    "name": "Hindsight Bias",
+    "one_line_hook": "Why you say \"I knew it all along\" after something bad happens",
+    "source_link": "https://en.wikipedia.org/wiki/Hindsight_bias",
+    "used_at": null
+  },
+  {
+    "id": "halo-effect",
+    "name": "Halo Effect",
+    "one_line_hook": "Why attractive people seem smarter and more trustworthy",
+    "source_link": "https://en.wikipedia.org/wiki/Halo_effect",
+    "used_at": null
+  },
+  {
+    "id": "loss-aversion",
+    "name": "Loss Aversion",
+    "one_line_hook": "Why losing $50 feels twice as bad as winning $50 feels good",
+    "source_link": "https://en.wikipedia.org/wiki/Loss_aversion",
+    "used_at": null
+  },
+  {
+    "id": "gamblers-fallacy",
+    "name": "Gambler's Fallacy",
+    "one_line_hook": "Why you think a coin is \"due\" for heads after five tails in a row",
+    "source_link": "https://en.wikipedia.org/wiki/Gambler%27s_fallacy",
+    "used_at": null
+  },
+  {
+    "id": "framing-effect",
+    "name": "Framing Effect",
+    "one_line_hook": "Why \"95% fat free\" sells better than \"contains 5% fat\"",
+    "source_link": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "fundamental-attribution-error",
+    "name": "Fundamental Attribution Error",
+    "one_line_hook": "Why you think rude drivers are bad people but you had a rough morning",
+    "source_link": "https://en.wikipedia.org/wiki/Fundamental_attribution_error",
+    "used_at": null
+  },
+  {
+    "id": "status-quo-bias",
+    "name": "Status Quo Bias",
+    "one_line_hook": "Why you keep using the same phone brand even when another is better",
+    "source_link": "https://en.wikipedia.org/wiki/Status_quo_bias",
+    "used_at": null
+  },
+  {
+    "id": "bandwagon-effect",
+    "name": "Bandwagon Effect",
+    "one_line_hook": "Why you're more likely to like a restaurant that already has a line",
+    "source_link": "https://en.wikipedia.org/wiki/Bandwagon_effect",
+    "used_at": null
+  },
+  {
+    "id": "planning-fallacy",
+    "name": "Planning Fallacy",
+    "one_line_hook": "Why every project takes twice as long as you expected",
+    "source_link": "https://en.wikipedia.org/wiki/Planning_fallacy",
+    "used_at": null
+  },
+  {
+    "id": "survivorship-bias",
+    "name": "Survivorship Bias",
+    "one_line_hook": "Why you only hear success stories and never the failures",
+    "source_link": "https://en.wikipedia.org/wiki/Survivorship_bias",
+    "used_at": null
+  },
+  {
+    "id": "optimism-bias",
+    "name": "Optimism Bias",
+    "one_line_hook": "Why you think you're less likely than average to get divorced or sick",
+    "source_link": "https://en.wikipedia.org/wiki/Optimism_bias",
+    "used_at": null
+  },
+  {
+    "id": "negativity-bias",
+    "name": "Negativity Bias",
+    "one_line_hook": "Why one bad review sticks with you longer than ten great ones",
+    "source_link": "https://en.wikipedia.org/wiki/Negativity_bias",
+    "used_at": null
+  },
+  {
+    "id": "recency-bias",
+    "name": "Recency Bias",
+    "one_line_hook": "Why you think the stock market will keep doing whatever it just did",
+    "source_link": "https://en.wikipedia.org/wiki/Recency_bias",
+    "used_at": null
+  },
+  {
+    "id": "in-group-bias",
+    "name": "In-Group Bias",
+    "one_line_hook": "Why you unconsciously trust people from your hometown more",
+    "source_link": "https://en.wikipedia.org/wiki/In-group_favoritism",
+    "used_at": null
+  },
+  {
+    "id": "bystander-effect",
+    "name": "Bystander Effect",
+    "one_line_hook": "Why you're less likely to help someone when others are watching",
+    "source_link": "https://en.wikipedia.org/wiki/Bystander_effect",
+    "used_at": null
+  },
+  {
+    "id": "endowment-effect",
+    "name": "Endowment Effect",
+    "one_line_hook": "Why you'd refuse to sell your old mug for what you paid for it",
+    "source_link": "https://en.wikipedia.org/wiki/Endowment_effect",
+    "used_at": null
+  },
+  {
+    "id": "illusion-of-control",
+    "name": "Illusion of Control",
+    "one_line_hook": "Why pressing the elevator button repeatedly makes you feel it arrives faster",
+    "source_link": "https://en.wikipedia.org/wiki/Illusion_of_control",
+    "used_at": null
+  },
+  {
+    "id": "self-serving-bias",
+    "name": "Self-Serving Bias",
+    "one_line_hook": "Why you take credit for wins but blame bad luck for losses",
+    "source_link": "https://en.wikipedia.org/wiki/Self-serving_bias",
+    "used_at": null
+  },
+  {
+    "id": "hot-hand-fallacy",
+    "name": "Hot Hand Fallacy",
+    "one_line_hook": "Why you think a basketball player who just scored five times will score again",
+    "source_link": "https://en.wikipedia.org/wiki/Hot_hand",
+    "used_at": null
+  },
+  {
+    "id": "curse-of-knowledge",
+    "name": "Curse of Knowledge",
+    "one_line_hook": "Why experts can't explain things simply once they know too much",
+    "source_link": "https://en.wikipedia.org/wiki/Curse_of_knowledge",
+    "used_at": null
+  },
+  {
+    "id": "decoy-effect",
+    "name": "Decoy Effect",
+    "one_line_hook": "Why adding a third bad option makes you choose the expensive one",
+    "source_link": "https://en.wikipedia.org/wiki/Decoy_effect",
+    "used_at": null
+  },
+  {
+    "id": "social-desirability-bias",
+    "name": "Social Desirability Bias",
+    "one_line_hook": "Why people say they exercise more than they actually do in surveys",
+    "source_link": "https://en.wikipedia.org/wiki/Social_desirability_bias",
+    "used_at": null
+  },
+  {
+    "id": "peak-end-rule",
+    "name": "Peak-End Rule",
+    "one_line_hook": "Why a vacation ending badly ruins your memory of the whole trip",
+    "source_link": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+    "used_at": null
+  },
+  {
+    "id": "illusory-correlation",
+    "name": "Illusory Correlation",
+    "one_line_hook": "Why you notice every time a full moon coincides with something weird",
+    "source_link": "https://en.wikipedia.org/wiki/Illusory_correlation",
+    "used_at": null
+  },
+  {
+    "id": "rosy-retrospection",
+    "name": "Rosy Retrospection",
+    "one_line_hook": "Why your memories of high school get better the further away you get",
+    "source_link": "https://en.wikipedia.org/wiki/Rosy_retrospection",
+    "used_at": null
+  },
+  {
+    "id": "action-bias",
+    "name": "Action Bias",
+    "one_line_hook": "Why goalkeepers dive even when staying still would save more shots",
+    "source_link": "https://en.wikipedia.org/wiki/Action_bias",
+    "used_at": null
+  },
+  {
+    "id": "ambiguity-effect",
+    "name": "Ambiguity Effect",
+    "one_line_hook": "Why you pick the option with known odds over one that might be better",
+    "source_link": "https://en.wikipedia.org/wiki/Ambiguity_effect",
+    "used_at": null
+  },
+  {
+    "id": "authority-bias",
+    "name": "Authority Bias",
+    "one_line_hook": "Why you trust advice more when it comes from someone in a white coat",
+    "source_link": "https://en.wikipedia.org/wiki/Authority_bias",
+    "used_at": null
+  },
+  {
+    "id": "automation-bias",
+    "name": "Automation Bias",
+    "one_line_hook": "Why you trust GPS directions even when you can see the road is closed",
+    "source_link": "https://en.wikipedia.org/wiki/Automation_bias",
+    "used_at": null
+  },
+  {
+    "id": "backfire-effect",
+    "name": "Backfire Effect",
+    "one_line_hook": "Why showing someone evidence they're wrong makes them believe it more",
+    "source_link": "https://en.wikipedia.org/wiki/Belief_perseverance",
+    "used_at": null
+  },
+  {
+    "id": "barnum-effect",
+    "name": "Barnum Effect",
+    "one_line_hook": "Why horoscopes feel personally accurate even though they describe everyone",
+    "source_link": "https://en.wikipedia.org/wiki/Barnum_effect",
+    "used_at": null
+  },
+  {
+    "id": "base-rate-neglect",
+    "name": "Base Rate Neglect",
+    "one_line_hook": "Why a positive cancer test doesn't mean what you think it means",
+    "source_link": "https://en.wikipedia.org/wiki/Base_rate_neglect",
+    "used_at": null
+  },
+  {
+    "id": "bias-blind-spot",
+    "name": "Bias Blind Spot",
+    "one_line_hook": "Why you can spot everyone else's biases but not your own",
+    "source_link": "https://en.wikipedia.org/wiki/Bias_blind_spot",
+    "used_at": null
+  },
+  {
+    "id": "cheerleader-effect",
+    "name": "Cheerleader Effect",
+    "one_line_hook": "Why people look more attractive in a group photo than individually",
+    "source_link": "https://en.wikipedia.org/wiki/Cheerleader_effect",
+    "used_at": null
+  },
+  {
+    "id": "choice-supportive-bias",
+    "name": "Choice-Supportive Bias",
+    "one_line_hook": "Why you remember your old car as better than it actually was after you sell it",
+    "source_link": "https://en.wikipedia.org/wiki/Choice-supportive_bias",
+    "used_at": null
+  },
+  {
+    "id": "clustering-illusion",
+    "name": "Clustering Illusion",
+    "one_line_hook": "Why you see patterns in random coin flips that aren't really there",
+    "source_link": "https://en.wikipedia.org/wiki/Clustering_illusion",
+    "used_at": null
+  },
+  {
+    "id": "continued-influence-effect",
+    "name": "Continued Influence Effect",
+    "one_line_hook": "Why corrections never fully undo the damage of the original false claim",
+    "source_link": "https://en.wikipedia.org/wiki/Continued_influence_effect",
+    "used_at": null
+  },
+  {
+    "id": "contrast-effect",
+    "name": "Contrast Effect",
+    "one_line_hook": "Why an average salary sounds great after hearing a low offer first",
+    "source_link": "https://en.wikipedia.org/wiki/Contrast_effect",
+    "used_at": null
+  },
+  {
+    "id": "denomination-effect",
+    "name": "Denomination Effect",
+    "one_line_hook": "Why you spend a $20 bill faster than four $5 bills",
+    "source_link": "https://en.wikipedia.org/wiki/Denomination_effect",
+    "used_at": null
+  },
+  {
+    "id": "disposition-effect",
+    "name": "Disposition Effect",
+    "one_line_hook": "Why investors sell winning stocks too early and hold losing ones too long",
+    "source_link": "https://en.wikipedia.org/wiki/Disposition_effect",
+    "used_at": null
+  },
+  {
+    "id": "distinction-bias",
+    "name": "Distinction Bias",
+    "one_line_hook": "Why differences between options seem huge when comparing but tiny when choosing",
+    "source_link": "https://en.wikipedia.org/wiki/Distinction_bias",
+    "used_at": null
+  },
+  {
+    "id": "duration-neglect",
+    "name": "Duration Neglect",
+    "one_line_hook": "Why a 30-minute toothache feels as bad as a 3-hour one in memory",
+    "source_link": "https://en.wikipedia.org/wiki/Duration_neglect",
+    "used_at": null
+  },
+  {
+    "id": "empathy-gap",
+    "name": "Empathy Gap",
+    "one_line_hook": "Why you buy gym clothes when motivated but never use them a week later",
+    "source_link": "https://en.wikipedia.org/wiki/Empathy_gap",
+    "used_at": null
+  },
+  {
+    "id": "extrinsic-incentives-bias",
+    "name": "Extrinsic Incentives Bias",
+    "one_line_hook": "Why you think others only do good things for money, not because they care",
+    "source_link": "https://en.wikipedia.org/wiki/Extrinsic_incentives_bias",
+    "used_at": null
+  },
+  {
+    "id": "false-consensus-effect",
+    "name": "False Consensus Effect",
+    "one_line_hook": "Why you assume most people share your political views",
+    "source_link": "https://en.wikipedia.org/wiki/False_consensus_effect",
+    "used_at": null
+  },
+  {
+    "id": "false-uniqueness-effect",
+    "name": "False Uniqueness Effect",
+    "one_line_hook": "Why you think your talents are rarer than they actually are",
+    "source_link": "https://en.wikipedia.org/wiki/False_uniqueness_bias",
+    "used_at": null
+  },
+  {
+    "id": "focusing-effect",
+    "name": "Focusing Effect",
+    "one_line_hook": "Why people in California aren't actually happier despite what everyone assumes",
+    "source_link": "https://en.wikipedia.org/wiki/Focusing_effect",
+    "used_at": null
+  },
+  {
+    "id": "frequency-illusion",
+    "name": "Frequency Illusion",
+    "one_line_hook": "Why you suddenly see your new car everywhere after you buy it",
+    "source_link": "https://en.wikipedia.org/wiki/Frequency_illusion",
+    "used_at": null
+  },
+  {
+    "id": "hyperbolic-discounting",
+    "name": "Hyperbolic Discounting",
+    "one_line_hook": "Why you'd take $50 today over $100 next month but not $50 in a year over $100 in 13 months",
+    "source_link": "https://en.wikipedia.org/wiki/Hyperbolic_discounting",
+    "used_at": null
+  },
+  {
+    "id": "ikea-effect",
+    "name": "IKEA Effect",
+    "one_line_hook": "Why furniture you assembled yourself feels worth more than store-bought",
+    "source_link": "https://en.wikipedia.org/wiki/IKEA_effect",
+    "used_at": null
+  },
+  {
+    "id": "illusion-of-asymmetric-insight",
+    "name": "Illusion of Asymmetric Insight",
+    "one_line_hook": "Why you feel you understand your friends better than they understand you",
+    "source_link": "https://en.wikipedia.org/wiki/Illusion_of_asymmetric_insight",
+    "used_at": null
+  },
+  {
+    "id": "illusion-of-transparency",
+    "name": "Illusion of Transparency",
+    "one_line_hook": "Why you feel everyone can tell you're nervous when they actually can't",
+    "source_link": "https://en.wikipedia.org/wiki/Illusion_of_transparency",
+    "used_at": null
+  },
+  {
+    "id": "illusion-of-validity",
+    "name": "Illusion of Validity",
+    "one_line_hook": "Why interviewers trust their gut feelings about candidates despite evidence they're wrong",
+    "source_link": "https://en.wikipedia.org/wiki/Illusion_of_validity",
+    "used_at": null
+  },
+  {
+    "id": "impact-bias",
+    "name": "Impact Bias",
+    "one_line_hook": "Why getting your dream job doesn't make you as happy as you imagined",
+    "source_link": "https://en.wikipedia.org/wiki/Impact_bias",
+    "used_at": null
+  },
+  {
+    "id": "information-bias",
+    "name": "Information Bias",
+    "one_line_hook": "Why doctors order tests they know won't change the treatment",
+    "source_link": "https://en.wikipedia.org/wiki/Information_bias_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "irrational-escalation",
+    "name": "Irrational Escalation",
+    "one_line_hook": "Why bidders in auctions pay way more than something is worth",
+    "source_link": "https://en.wikipedia.org/wiki/Escalation_of_commitment",
+    "used_at": null
+  },
+  {
+    "id": "just-world-hypothesis",
+    "name": "Just-World Hypothesis",
+    "one_line_hook": "Why people unconsciously blame victims for their own misfortune",
+    "source_link": "https://en.wikipedia.org/wiki/Just-world_hypothesis",
+    "used_at": null
+  },
+  {
+    "id": "less-is-better-effect",
+    "name": "Less-Is-Better Effect",
+    "one_line_hook": "Why a small diamond ring feels more valuable than a large bag of chocolates even though the chocolates cost more",
+    "source_link": "https://en.wikipedia.org/wiki/Less-is-better_effect",
+    "used_at": null
+  },
+  {
+    "id": "leveling-and-sharpening",
+    "name": "Leveling and Sharpening",
+    "one_line_hook": "Why stories become simpler and more dramatic each time they're retold",
+    "source_link": "https://en.wikipedia.org/wiki/Leveling_and_sharpening",
+    "used_at": null
+  },
+  {
+    "id": "mere-exposure-effect",
+    "name": "Mere Exposure Effect",
+    "one_line_hook": "Why you like a song more the third time you hear it even if you hated it at first",
+    "source_link": "https://en.wikipedia.org/wiki/Mere-exposure_effect",
+    "used_at": null
+  },
+  {
+    "id": "money-illusion",
+    "name": "Money Illusion",
+    "one_line_hook": "Why a 3% raise during 5% inflation feels like a win",
+    "source_link": "https://en.wikipedia.org/wiki/Money_illusion",
+    "used_at": null
+  },
+  {
+    "id": "moral-credential-effect",
+    "name": "Moral Credential Effect",
+    "one_line_hook": "Why people who just did something good are more likely to act selfishly next",
+    "source_link": "https://en.wikipedia.org/wiki/Self-licensing",
+    "used_at": null
+  },
+  {
+    "id": "naive-cynicism",
+    "name": "Naive Cynicism",
+    "one_line_hook": "Why you assume others are more selfish than they actually are",
+    "source_link": "https://en.wikipedia.org/wiki/Naive_cynicism",
+    "used_at": null
+  },
+  {
+    "id": "naive-realism",
+    "name": "Naive Realism",
+    "one_line_hook": "Why you think people who disagree with you are uninformed or biased",
+    "source_link": "https://en.wikipedia.org/wiki/Na%C3%AFve_realism_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "neglect-of-probability",
+    "name": "Neglect of Probability",
+    "one_line_hook": "Why you fear flying more than driving despite the statistics",
+    "source_link": "https://en.wikipedia.org/wiki/Neglect_of_probability",
+    "used_at": null
+  },
+  {
+    "id": "normalcy-bias",
+    "name": "Normalcy Bias",
+    "one_line_hook": "Why people stand still during disasters instead of evacuating",
+    "source_link": "https://en.wikipedia.org/wiki/Normalcy_bias",
+    "used_at": null
+  },
+  {
+    "id": "not-invented-here",
+    "name": "Not-Invented-Here Bias",
+    "one_line_hook": "Why teams reject perfectly good solutions just because they didn't create them",
+    "source_link": "https://en.wikipedia.org/wiki/Not_invented_here",
+    "used_at": null
+  },
+  {
+    "id": "omission-bias",
+    "name": "Omission Bias",
+    "one_line_hook": "Why doing nothing feels less guilty than taking action, even if both cause harm",
+    "source_link": "https://en.wikipedia.org/wiki/Omission_bias",
+    "used_at": null
+  },
+  {
+    "id": "ostrich-effect",
+    "name": "Ostrich Effect",
+    "one_line_hook": "Why people check their bank balance less when they know they've overspent",
+    "source_link": "https://en.wikipedia.org/wiki/Ostrich_effect",
+    "used_at": null
+  },
+  {
+    "id": "outcome-bias",
+    "name": "Outcome Bias",
+    "one_line_hook": "Why you judge a decision as bad just because it turned out badly",
+    "source_link": "https://en.wikipedia.org/wiki/Outcome_bias",
+    "used_at": null
+  },
+  {
+    "id": "overconfidence-effect",
+    "name": "Overconfidence Effect",
+    "one_line_hook": "Why 93% of drivers think they're above average behind the wheel",
+    "source_link": "https://en.wikipedia.org/wiki/Overconfidence_effect",
+    "used_at": null
+  },
+  {
+    "id": "pareidolia",
+    "name": "Pareidolia",
+    "one_line_hook": "Why you see faces in clouds, toast, and random wood grain",
+    "source_link": "https://en.wikipedia.org/wiki/Pareidolia",
+    "used_at": null
+  },
+  {
+    "id": "pessimism-bias",
+    "name": "Pessimism Bias",
+    "one_line_hook": "Why depressed people often make more accurate predictions about the future",
+    "source_link": "https://en.wikipedia.org/wiki/Pessimism_bias",
+    "used_at": null
+  },
+  {
+    "id": "pro-innovation-bias",
+    "name": "Pro-Innovation Bias",
+    "one_line_hook": "Why tech founders overestimate how quickly the world will adopt their invention",
+    "source_link": "https://en.wikipedia.org/wiki/Pro-innovation_bias",
+    "used_at": null
+  },
+  {
+    "id": "projection-bias",
+    "name": "Projection Bias",
+    "one_line_hook": "Why you grocery-shop hungry and buy ten things you don't actually want",
+    "source_link": "https://en.wikipedia.org/wiki/Projection_bias",
+    "used_at": null
+  },
+  {
+    "id": "pseudocertainty-effect",
+    "name": "Pseudocertainty Effect",
+    "one_line_hook": "Why people accept sure small gains but gamble to avoid certain losses",
+    "source_link": "https://en.wikipedia.org/wiki/Pseudocertainty_effect",
+    "used_at": null
+  },
+  {
+    "id": "reactance",
+    "name": "Reactance",
+    "one_line_hook": "Why being told you can't do something makes you want to do it more",
+    "source_link": "https://en.wikipedia.org/wiki/Reactance_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "restraint-bias",
+    "name": "Restraint Bias",
+    "one_line_hook": "Why people overestimate their ability to resist temptation and put themselves in front of it",
+    "source_link": "https://en.wikipedia.org/wiki/Restraint_bias",
+    "used_at": null
+  },
+  {
+    "id": "rhyme-as-reason-effect",
+    "name": "Rhyme-as-Reason Effect",
+    "one_line_hook": "Why \"if it doesn't fit, you must acquit\" was more persuasive than a plain argument",
+    "source_link": "https://en.wikipedia.org/wiki/Rhyme-as-reason_effect",
+    "used_at": null
+  },
+  {
+    "id": "risk-compensation",
+    "name": "Risk Compensation",
+    "one_line_hook": "Why adding safety equipment sometimes makes people take more dangerous risks",
+    "source_link": "https://en.wikipedia.org/wiki/Risk_compensation",
+    "used_at": null
+  },
+  {
+    "id": "scarcity-heuristic",
+    "name": "Scarcity Heuristic",
+    "one_line_hook": "Why \"limited time offer\" makes you want something you didn't care about before",
+    "source_link": "https://en.wikipedia.org/wiki/Scarcity_(social_psychology)",
+    "used_at": null
+  },
+  {
+    "id": "selective-perception",
+    "name": "Selective Perception",
+    "one_line_hook": "Why two people watching the same argument walk away with different versions",
+    "source_link": "https://en.wikipedia.org/wiki/Selective_perception",
+    "used_at": null
+  },
+  {
+    "id": "semmelweis-reflex",
+    "name": "Semmelweis Reflex",
+    "one_line_hook": "Why new ideas get rejected by experts before any evidence is examined",
+    "source_link": "https://en.wikipedia.org/wiki/Semmelweis_reflex",
+    "used_at": null
+  },
+  {
+    "id": "shared-information-bias",
+    "name": "Shared Information Bias",
+    "one_line_hook": "Why group meetings waste time discussing what everyone already knows",
+    "source_link": "https://en.wikipedia.org/wiki/Shared_information_bias",
+    "used_at": null
+  },
+  {
+    "id": "social-comparison-bias",
+    "name": "Social Comparison Bias",
+    "one_line_hook": "Why managers unconsciously hire candidates weaker than themselves",
+    "source_link": "https://en.wikipedia.org/wiki/Social_comparison_bias",
+    "used_at": null
+  },
+  {
+    "id": "spotlight-effect",
+    "name": "Spotlight Effect",
+    "one_line_hook": "Why you think everyone noticed you spilled coffee on your shirt",
+    "source_link": "https://en.wikipedia.org/wiki/Spotlight_effect",
+    "used_at": null
+  },
+  {
+    "id": "stereotyping",
+    "name": "Stereotyping",
+    "one_line_hook": "Why first impressions based on group membership override actual evidence",
+    "source_link": "https://en.wikipedia.org/wiki/Stereotype",
+    "used_at": null
+  },
+  {
+    "id": "subadditivity-effect",
+    "name": "Subadditivity Effect",
+    "one_line_hook": "Why people estimate the parts of a thing add up to less than the whole",
+    "source_link": "https://en.wikipedia.org/wiki/Subadditivity_effect",
+    "used_at": null
+  },
+  {
+    "id": "telescoping-effect",
+    "name": "Telescoping Effect",
+    "one_line_hook": "Why recent events feel older and old events feel more recent than they are",
+    "source_link": "https://en.wikipedia.org/wiki/Telescoping_effect",
+    "used_at": null
+  },
+  {
+    "id": "texas-sharpshooter-fallacy",
+    "name": "Texas Sharpshooter Fallacy",
+    "one_line_hook": "Why people find patterns in random data by looking at the data first",
+    "source_link": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy",
+    "used_at": null
+  },
+  {
+    "id": "time-saving-bias",
+    "name": "Time-Saving Bias",
+    "one_line_hook": "Why people think speeding from 40mph to 50mph saves more time than from 90 to 100",
+    "source_link": "https://en.wikipedia.org/wiki/Time-saving_bias",
+    "used_at": null
+  },
+  {
+    "id": "triviality-bias",
+    "name": "Triviality Bias",
+    "one_line_hook": "Why committees spend more time debating coffee choices than the annual budget",
+    "source_link": "https://en.wikipedia.org/wiki/Law_of_triviality",
+    "used_at": null
+  },
+  {
+    "id": "unit-bias",
+    "name": "Unit Bias",
+    "one_line_hook": "Why you feel compelled to finish whatever portion you're given regardless of size",
+    "source_link": "https://en.wikipedia.org/wiki/Unit_bias",
+    "used_at": null
+  },
+  {
+    "id": "well-travelled-road-effect",
+    "name": "Well-Travelled Road Effect",
+    "one_line_hook": "Why your daily commute always feels shorter than an unfamiliar route of the same length",
+    "source_link": "https://en.wikipedia.org/wiki/Well-travelled_road_effect",
+    "used_at": null
+  },
+  {
+    "id": "worse-than-average-effect",
+    "name": "Worse-Than-Average Effect",
+    "one_line_hook": "Why people think they're worse than average at tasks they've never tried",
+    "source_link": "https://en.wikipedia.org/wiki/Better-than-average_effect",
+    "used_at": null
+  },
+  {
+    "id": "zero-risk-bias",
+    "name": "Zero-Risk Bias",
+    "one_line_hook": "Why people prefer eliminating a small risk completely over reducing a large risk significantly",
+    "source_link": "https://en.wikipedia.org/wiki/Zero-risk_bias",
+    "used_at": null
+  },
+  {
+    "id": "zero-sum-bias",
+    "name": "Zero-Sum Bias",
+    "one_line_hook": "Why people assume that if someone else gains, they must be losing",
+    "source_link": "https://en.wikipedia.org/wiki/Zero-sum_thinking",
+    "used_at": null
+  },
+  {
+    "id": "acquiescence-bias",
+    "name": "Acquiescence Bias",
+    "one_line_hook": "Why people tend to agree with survey questions regardless of their actual opinion",
+    "source_link": "https://en.wikipedia.org/wiki/Acquiescence_bias",
+    "used_at": null
+  },
+  {
+    "id": "affect-heuristic",
+    "name": "Affect Heuristic",
+    "one_line_hook": "Why you judge risks as lower for things you enjoy doing",
+    "source_link": "https://en.wikipedia.org/wiki/Affect_heuristic",
+    "used_at": null
+  },
+  {
+    "id": "agent-detection",
+    "name": "Agent Detection",
+    "one_line_hook": "Why you suspect someone moved your keys even when you just misplaced them",
+    "source_link": "https://en.wikipedia.org/wiki/Agent_detection",
+    "used_at": null
+  },
+  {
+    "id": "apophenia",
+    "name": "Apophenia",
+    "one_line_hook": "Why you see meaningful connections between completely unrelated things",
+    "source_link": "https://en.wikipedia.org/wiki/Apophenia",
+    "used_at": null
+  },
+  {
+    "id": "belief-bias",
+    "name": "Belief Bias",
+    "one_line_hook": "Why you accept a bad argument if its conclusion matches what you already believe",
+    "source_link": "https://en.wikipedia.org/wiki/Belief_bias",
+    "used_at": null
+  },
+  {
+    "id": "ben-franklin-effect",
+    "name": "Ben Franklin Effect",
+    "one_line_hook": "Why asking someone for a small favor makes them like you more, not less",
+    "source_link": "https://en.wikipedia.org/wiki/Ben_Franklin_effect",
+    "used_at": null
+  },
+  {
+    "id": "caring-effect",
+    "name": "Caring Effect",
+    "one_line_hook": "Why people perform better when they know someone cares about the outcome",
+    "source_link": "https://en.wikipedia.org/wiki/Hawthorne_effect",
+    "used_at": null
+  },
+  {
+    "id": "cashless-effect",
+    "name": "Cashless Effect",
+    "one_line_hook": "Why you spend more freely when paying by card than with physical cash",
+    "source_link": "https://en.wikipedia.org/wiki/Cashless_effect",
+    "used_at": null
+  },
+  {
+    "id": "category-size-bias",
+    "name": "Category Size Bias",
+    "one_line_hook": "Why you assume there are more people in a country just because it has a large population",
+    "source_link": "https://en.wikipedia.org/wiki/Category_size_bias",
+    "used_at": null
+  },
+  {
+    "id": "cognitive-dissonance",
+    "name": "Cognitive Dissonance",
+    "one_line_hook": "Why smokers convince themselves their habit isn't that dangerous",
+    "source_link": "https://en.wikipedia.org/wiki/Cognitive_dissonance",
+    "used_at": null
+  },
+  {
+    "id": "competitive-arousal",
+    "name": "Competitive Arousal",
+    "one_line_hook": "Why people at auctions get swept up and pay far more than they planned",
+    "source_link": "https://en.wikipedia.org/wiki/Competitive_arousal",
+    "used_at": null
+  },
+  {
+    "id": "conservatism-bias",
+    "name": "Conservatism Bias",
+    "one_line_hook": "Why people update their beliefs too slowly when new evidence arrives",
+    "source_link": "https://en.wikipedia.org/wiki/Conservatism_(belief_revision)",
+    "used_at": null
+  },
+  {
+    "id": "context-effect",
+    "name": "Context Effect",
+    "one_line_hook": "Why the same food tastes better in an expensive restaurant",
+    "source_link": "https://en.wikipedia.org/wiki/Context_effect",
+    "used_at": null
+  },
+  {
+    "id": "congruence-bias",
+    "name": "Congruence Bias",
+    "one_line_hook": "Why scientists keep testing their own hypothesis instead of trying to disprove it",
+    "source_link": "https://en.wikipedia.org/wiki/Congruence_bias",
+    "used_at": null
+  },
+  {
+    "id": "courtesy-bias",
+    "name": "Courtesy Bias",
+    "one_line_hook": "Why customer satisfaction surveys almost always skew positive",
+    "source_link": "https://en.wikipedia.org/wiki/Courtesy_bias",
+    "used_at": null
+  },
+  {
+    "id": "cryptomnesia",
+    "name": "Cryptomnesia",
+    "one_line_hook": "Why you sometimes think you invented an idea you actually heard years ago",
+    "source_link": "https://en.wikipedia.org/wiki/Cryptomnesia",
+    "used_at": null
+  },
+  {
+    "id": "cultural-bias",
+    "name": "Cultural Bias",
+    "one_line_hook": "Why what counts as polite, punctual, or generous differs by country",
+    "source_link": "https://en.wikipedia.org/wiki/Cultural_bias",
+    "used_at": null
+  },
+  {
+    "id": "default-effect",
+    "name": "Default Effect",
+    "one_line_hook": "Why organ donation rates vary wildly depending on whether it's opt-in or opt-out",
+    "source_link": "https://en.wikipedia.org/wiki/Default_effect",
+    "used_at": null
+  },
+  {
+    "id": "defensive-attribution",
+    "name": "Defensive Attribution",
+    "one_line_hook": "Why people who are similar to accident victims receive less blame",
+    "source_link": "https://en.wikipedia.org/wiki/Defensive_attribution_hypothesis",
+    "used_at": null
+  },
+  {
+    "id": "deformation-professionnelle",
+    "name": "Professional Deformation",
+    "one_line_hook": "Why a hammer-wielding handyman sees every problem as a nail",
+    "source_link": "https://en.wikipedia.org/wiki/Law_of_the_instrument",
+    "used_at": null
+  },
+  {
+    "id": "egocentric-bias",
+    "name": "Egocentric Bias",
+    "one_line_hook": "Why each person in a group believes they contributed more than their fair share",
+    "source_link": "https://en.wikipedia.org/wiki/Egocentric_bias",
+    "used_at": null
+  },
+  {
+    "id": "emotional-cascade",
+    "name": "Emotional Cascade",
+    "one_line_hook": "Why ruminating on a small frustration can spiral into a full breakdown",
+    "source_link": "https://en.wikipedia.org/wiki/Emotional_dysregulation",
+    "used_at": null
+  },
+  {
+    "id": "escalation-of-commitment",
+    "name": "Escalation of Commitment",
+    "one_line_hook": "Why companies keep funding failing projects because of how much they've already spent",
+    "source_link": "https://en.wikipedia.org/wiki/Escalation_of_commitment",
+    "used_at": null
+  },
+  {
+    "id": "essentialism",
+    "name": "Psychological Essentialism",
+    "one_line_hook": "Why people believe there's a hidden \"essence\" that makes categories real",
+    "source_link": "https://en.wikipedia.org/wiki/Essentialism",
+    "used_at": null
+  },
+  {
+    "id": "experimenter-bias",
+    "name": "Experimenter Bias",
+    "one_line_hook": "Why researchers subtly influence results to confirm what they expected to find",
+    "source_link": "https://en.wikipedia.org/wiki/Experimenter%27s_bias",
+    "used_at": null
+  },
+  {
+    "id": "extension-neglect",
+    "name": "Extension Neglect",
+    "one_line_hook": "Why people donate the same amount to save 2000 birds as to save 200000",
+    "source_link": "https://en.wikipedia.org/wiki/Extension_neglect",
+    "used_at": null
+  },
+  {
+    "id": "extreme-aversion",
+    "name": "Extreme Aversion",
+    "one_line_hook": "Why restaurants put a $300 steak on the menu to make the $80 option feel reasonable",
+    "source_link": "https://en.wikipedia.org/wiki/Compromise_effect",
+    "used_at": null
+  },
+  {
+    "id": "face-ism",
+    "name": "Face-ism",
+    "one_line_hook": "Why men are photographed more from the face up while women are shown more of their body",
+    "source_link": "https://en.wikipedia.org/wiki/Face-ism",
+    "used_at": null
+  },
+  {
+    "id": "familiarity-heuristic",
+    "name": "Familiarity Heuristic",
+    "one_line_hook": "Why you trust your home country's brands over foreign ones even when quality is identical",
+    "source_link": "https://en.wikipedia.org/wiki/Familiarity_heuristic",
+    "used_at": null
+  },
+  {
+    "id": "featuritis",
+    "name": "Feature Creep",
+    "one_line_hook": "Why apps keep adding features until they're too complicated for anyone to use",
+    "source_link": "https://en.wikipedia.org/wiki/Feature_creep",
+    "used_at": null
+  },
+  {
+    "id": "fluency-heuristic",
+    "name": "Fluency Heuristic",
+    "one_line_hook": "Why stocks with easy-to-pronounce names outperform ones with complex names",
+    "source_link": "https://en.wikipedia.org/wiki/Processing_fluency",
+    "used_at": null
+  },
+  {
+    "id": "forer-effect",
+    "name": "Forer Effect",
+    "one_line_hook": "Why personality tests feel scarily accurate even when everyone gets the same result",
+    "source_link": "https://en.wikipedia.org/wiki/Barnum_effect",
+    "used_at": null
+  },
+  {
+    "id": "functional-fixedness",
+    "name": "Functional Fixedness",
+    "one_line_hook": "Why you can't see that a butter knife would work perfectly as a screwdriver",
+    "source_link": "https://en.wikipedia.org/wiki/Functional_fixedness",
+    "used_at": null
+  },
+  {
+    "id": "google-effect",
+    "name": "Google Effect",
+    "one_line_hook": "Why you forget information you know you can easily look up online",
+    "source_link": "https://en.wikipedia.org/wiki/Google_effect",
+    "used_at": null
+  },
+  {
+    "id": "groupthink",
+    "name": "Groupthink",
+    "one_line_hook": "Why smart teams make bad decisions when everyone is afraid to speak up",
+    "source_link": "https://en.wikipedia.org/wiki/Groupthink",
+    "used_at": null
+  },
+  {
+    "id": "hard-easy-effect",
+    "name": "Hard-Easy Effect",
+    "one_line_hook": "Why you're overconfident on hard questions and underconfident on easy ones",
+    "source_link": "https://en.wikipedia.org/wiki/Hard%E2%80%93easy_effect",
+    "used_at": null
+  },
+  {
+    "id": "identifiable-victim-effect",
+    "name": "Identifiable Victim Effect",
+    "one_line_hook": "Why one named child raises more charity money than statistics about millions",
+    "source_link": "https://en.wikipedia.org/wiki/Identifiable_victim_effect",
+    "used_at": null
+  },
+  {
+    "id": "illusion-of-explanatory-depth",
+    "name": "Illusion of Explanatory Depth",
+    "one_line_hook": "Why you think you understand how a toilet works until you try to explain it",
+    "source_link": "https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth",
+    "used_at": null
+  },
+  {
+    "id": "imagination-inflation",
+    "name": "Imagination Inflation",
+    "one_line_hook": "Why vividly imagining an event can make you believe it actually happened to you",
+    "source_link": "https://en.wikipedia.org/wiki/Imagination_inflation",
+    "used_at": null
+  },
+  {
+    "id": "inattentional-blindness",
+    "name": "Inattentional Blindness",
+    "one_line_hook": "Why you can miss a gorilla walking through a scene you're watching intently",
+    "source_link": "https://en.wikipedia.org/wiki/Inattentional_blindness",
+    "used_at": null
+  },
+  {
+    "id": "intention-action-gap",
+    "name": "Intention-Action Gap",
+    "one_line_hook": "Why people who say they'll start exercising Monday almost never do",
+    "source_link": "https://en.wikipedia.org/wiki/Intention%E2%80%93behaviour_gap",
+    "used_at": null
+  },
+  {
+    "id": "introspection-illusion",
+    "name": "Introspection Illusion",
+    "one_line_hook": "Why you think you know your own motivations when you mostly don't",
+    "source_link": "https://en.wikipedia.org/wiki/Introspection_illusion",
+    "used_at": null
+  },
+  {
+    "id": "irrational-primacy-effect",
+    "name": "Primacy Effect",
+    "one_line_hook": "Why the first item on a menu or ballot gets chosen more often",
+    "source_link": "https://en.wikipedia.org/wiki/Serial_position_effect",
+    "used_at": null
+  },
+  {
+    "id": "law-of-small-numbers",
+    "name": "Law of Small Numbers",
+    "one_line_hook": "Why you trust a study of 20 people almost as much as one with 20000",
+    "source_link": "https://en.wikipedia.org/wiki/Insensitivity_to_sample_size",
+    "used_at": null
+  },
+  {
+    "id": "look-elsewhere-effect",
+    "name": "Look-Elsewhere Effect",
+    "one_line_hook": "Why scientists testing many hypotheses at once are bound to find a false positive",
+    "source_link": "https://en.wikipedia.org/wiki/Multiple_comparisons_problem",
+    "used_at": null
+  },
+  {
+    "id": "magic-number-seven",
+    "name": "Miller's Law",
+    "one_line_hook": "Why phone numbers were originally 7 digits — the limit of working memory",
+    "source_link": "https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two",
+    "used_at": null
+  },
+  {
+    "id": "mcnamara-fallacy",
+    "name": "McNamara Fallacy",
+    "one_line_hook": "Why optimizing for what's measurable often ignores what actually matters",
+    "source_link": "https://en.wikipedia.org/wiki/McNamara_fallacy",
+    "used_at": null
+  },
+  {
+    "id": "mental-accounting",
+    "name": "Mental Accounting",
+    "one_line_hook": "Why you'd never take $50 from savings but happily spend a $50 bonus on junk",
+    "source_link": "https://en.wikipedia.org/wiki/Mental_accounting",
+    "used_at": null
+  },
+  {
+    "id": "mere-ownership-effect",
+    "name": "Mere Ownership Effect",
+    "one_line_hook": "Why you rate objects higher just because you own them",
+    "source_link": "https://en.wikipedia.org/wiki/Mere_ownership_effect",
+    "used_at": null
+  },
+  {
+    "id": "misinformation-effect",
+    "name": "Misinformation Effect",
+    "one_line_hook": "Why a leading question from police can permanently alter a witness's memory",
+    "source_link": "https://en.wikipedia.org/wiki/Misinformation_effect",
+    "used_at": null
+  },
+  {
+    "id": "modality-effect",
+    "name": "Modality Effect",
+    "one_line_hook": "Why you remember the last few items in a list better when you hear them than read them",
+    "source_link": "https://en.wikipedia.org/wiki/Modality_effect",
+    "used_at": null
+  },
+  {
+    "id": "moral-luck",
+    "name": "Moral Luck",
+    "one_line_hook": "Why two identical drunk drivers are judged very differently if one hits someone",
+    "source_link": "https://en.wikipedia.org/wiki/Moral_luck",
+    "used_at": null
+  },
+  {
+    "id": "moral-licensing",
+    "name": "Moral Licensing",
+    "one_line_hook": "Why people who recycle feel more entitled to splurge on a flight",
+    "source_link": "https://en.wikipedia.org/wiki/Self-licensing",
+    "used_at": null
+  },
+  {
+    "id": "motivational-salience",
+    "name": "Motivational Salience",
+    "one_line_hook": "Why hungry people notice food-related words in a crowded word search faster",
+    "source_link": "https://en.wikipedia.org/wiki/Motivational_salience",
+    "used_at": null
+  },
+  {
+    "id": "narration-bias",
+    "name": "Narrative Fallacy",
+    "one_line_hook": "Why we can't help turning random events into a story with a villain and a hero",
+    "source_link": "https://en.wikipedia.org/wiki/Narrative_fallacy",
+    "used_at": null
+  },
+  {
+    "id": "next-in-line-effect",
+    "name": "Next-in-Line Effect",
+    "one_line_hook": "Why you forget what others said right before your turn to speak",
+    "source_link": "https://en.wikipedia.org/wiki/Next-in-line_effect",
+    "used_at": null
+  },
+  {
+    "id": "noble-edge-effect",
+    "name": "Noble Edge Effect",
+    "one_line_hook": "Why consumers prefer products from companies they see as ethical",
+    "source_link": "https://en.wikipedia.org/wiki/Noble_edge_effect",
+    "used_at": null
+  },
+  {
+    "id": "outgroup-homogeneity",
+    "name": "Outgroup Homogeneity Bias",
+    "one_line_hook": "Why \"they\" all seem the same but \"we\" are all unique individuals",
+    "source_link": "https://en.wikipedia.org/wiki/Out-group_homogeneity",
+    "used_at": null
+  },
+  {
+    "id": "overattribution-effect",
+    "name": "Overattribution Effect",
+    "one_line_hook": "Why you assume someone is generous because of who they are, not just what they did",
+    "source_link": "https://en.wikipedia.org/wiki/Fundamental_attribution_error",
+    "used_at": null
+  },
+  {
+    "id": "picture-superiority-effect",
+    "name": "Picture Superiority Effect",
+    "one_line_hook": "Why you remember images far better than words you read",
+    "source_link": "https://en.wikipedia.org/wiki/Picture_superiority_effect",
+    "used_at": null
+  },
+  {
+    "id": "placebo-effect",
+    "name": "Placebo Effect",
+    "one_line_hook": "Why a sugar pill can genuinely reduce pain if the patient believes it will",
+    "source_link": "https://en.wikipedia.org/wiki/Placebo",
+    "used_at": null
+  },
+  {
+    "id": "post-purchase-rationalization",
+    "name": "Post-Purchase Rationalization",
+    "one_line_hook": "Why you suddenly think of all the reasons your expensive buy was actually smart",
+    "source_link": "https://en.wikipedia.org/wiki/Choice-supportive_bias",
+    "used_at": null
+  },
+  {
+    "id": "present-bias",
+    "name": "Present Bias",
+    "one_line_hook": "Why you choose Netflix tonight over the report that's due tomorrow",
+    "source_link": "https://en.wikipedia.org/wiki/Present_bias",
+    "used_at": null
+  },
+  {
+    "id": "processing-difficulty-effect",
+    "name": "Processing Difficulty Effect",
+    "one_line_hook": "Why hard-to-read fonts sometimes make people think more carefully",
+    "source_link": "https://en.wikipedia.org/wiki/Disfluency",
+    "used_at": null
+  },
+  {
+    "id": "proportionality-bias",
+    "name": "Proportionality Bias",
+    "one_line_hook": "Why people assume big events must have big causes — not random accidents",
+    "source_link": "https://en.wikipedia.org/wiki/Proportionality_bias",
+    "used_at": null
+  },
+  {
+    "id": "puberty-suppression-bias",
+    "name": "Regressive Thinking",
+    "one_line_hook": "Why you revert to childlike reasoning when stressed or threatened",
+    "source_link": "https://en.wikipedia.org/wiki/Regression_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "pygmalion-effect",
+    "name": "Pygmalion Effect",
+    "one_line_hook": "Why students perform better when teachers genuinely expect them to succeed",
+    "source_link": "https://en.wikipedia.org/wiki/Pygmalion_effect",
+    "used_at": null
+  },
+  {
+    "id": "reactive-devaluation",
+    "name": "Reactive Devaluation",
+    "one_line_hook": "Why a peace proposal sounds better before you find out your enemy suggested it",
+    "source_link": "https://en.wikipedia.org/wiki/Reactive_devaluation",
+    "used_at": null
+  },
+  {
+    "id": "reminiscence-bump",
+    "name": "Reminiscence Bump",
+    "one_line_hook": "Why the music from your teenage years always sounds better than anything new",
+    "source_link": "https://en.wikipedia.org/wiki/Reminiscence_bump",
+    "used_at": null
+  },
+  {
+    "id": "repetition-blindness",
+    "name": "Repetition Blindness",
+    "one_line_hook": "Why readers miss a repeated word when it appears at the end of one line and the start of the next",
+    "source_link": "https://en.wikipedia.org/wiki/Repetition_blindness",
+    "used_at": null
+  },
+  {
+    "id": "reputation-trap",
+    "name": "Reputation Trap",
+    "one_line_hook": "Why high-performing employees get stuck in roles they've outgrown",
+    "source_link": "https://en.wikipedia.org/wiki/Peter_principle",
+    "used_at": null
+  },
+  {
+    "id": "salience-bias",
+    "name": "Salience Bias",
+    "one_line_hook": "Why the loudest voice in a meeting gets remembered as the most important",
+    "source_link": "https://en.wikipedia.org/wiki/Salience_bias",
+    "used_at": null
+  },
+  {
+    "id": "self-consistency-bias",
+    "name": "Self-Consistency Bias",
+    "one_line_hook": "Why your memory edits your past opinions to match who you are today",
+    "source_link": "https://en.wikipedia.org/wiki/Self-consistency_bias",
+    "used_at": null
+  },
+  {
+    "id": "self-handicapping",
+    "name": "Self-Handicapping",
+    "one_line_hook": "Why students party the night before a test so failure has a built-in excuse",
+    "source_link": "https://en.wikipedia.org/wiki/Self-handicapping",
+    "used_at": null
+  },
+  {
+    "id": "self-interest-bias",
+    "name": "Self-Interest Bias",
+    "one_line_hook": "Why people rate their own performance as above average in salary negotiations",
+    "source_link": "https://en.wikipedia.org/wiki/Self-serving_bias",
+    "used_at": null
+  },
+  {
+    "id": "serial-position-effect",
+    "name": "Serial Position Effect",
+    "one_line_hook": "Why you remember the first and last things on a list but forget the middle",
+    "source_link": "https://en.wikipedia.org/wiki/Serial_position_effect",
+    "used_at": null
+  },
+  {
+    "id": "sleeper-effect",
+    "name": "Sleeper Effect",
+    "one_line_hook": "Why persuasion from a low-credibility source actually increases over time",
+    "source_link": "https://en.wikipedia.org/wiki/Sleeper_effect",
+    "used_at": null
+  },
+  {
+    "id": "social-loafing",
+    "name": "Social Loafing",
+    "one_line_hook": "Why people pull a rope harder alone than as part of a team",
+    "source_link": "https://en.wikipedia.org/wiki/Social_loafing",
+    "used_at": null
+  },
+  {
+    "id": "society-bias",
+    "name": "System Justification",
+    "one_line_hook": "Why even disadvantaged groups defend the system that disadvantages them",
+    "source_link": "https://en.wikipedia.org/wiki/System_justification",
+    "used_at": null
+  },
+  {
+    "id": "source-monitoring-error",
+    "name": "Source Monitoring Error",
+    "one_line_hook": "Why you forget whether you read something in the news or dreamed it",
+    "source_link": "https://en.wikipedia.org/wiki/Source_monitoring_error",
+    "used_at": null
+  },
+  {
+    "id": "spacing-effect",
+    "name": "Spacing Effect",
+    "one_line_hook": "Why cramming the night before works worse than studying a little each day",
+    "source_link": "https://en.wikipedia.org/wiki/Spacing_effect",
+    "used_at": null
+  },
+  {
+    "id": "split-brain-illusion",
+    "name": "Interpreter Module Bias",
+    "one_line_hook": "Why your brain fabricates logical explanations for things you did instinctively",
+    "source_link": "https://en.wikipedia.org/wiki/Left_brain_interpreter",
+    "used_at": null
+  },
+  {
+    "id": "story-bias",
+    "name": "Story Bias",
+    "one_line_hook": "Why a single anecdote beats a spreadsheet full of data every time",
+    "source_link": "https://en.wikipedia.org/wiki/Narrative_bias",
+    "used_at": null
+  },
+  {
+    "id": "subjective-validation",
+    "name": "Subjective Validation",
+    "one_line_hook": "Why two contradictory statements both feel true if you want them to apply to you",
+    "source_link": "https://en.wikipedia.org/wiki/Subjective_validation",
+    "used_at": null
+  },
+  {
+    "id": "suggestibility",
+    "name": "Suggestibility",
+    "one_line_hook": "Why therapists can accidentally implant false childhood memories in patients",
+    "source_link": "https://en.wikipedia.org/wiki/Suggestibility",
+    "used_at": null
+  },
+  {
+    "id": "system-1-system-2",
+    "name": "Thinking Fast and Slow",
+    "one_line_hook": "Why your gut answers a math question before your brain even starts working",
+    "source_link": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow",
+    "used_at": null
+  },
+  {
+    "id": "third-person-effect",
+    "name": "Third-Person Effect",
+    "one_line_hook": "Why you think advertising manipulates other people but never yourself",
+    "source_link": "https://en.wikipedia.org/wiki/Third-person_effect",
+    "used_at": null
+  },
+  {
+    "id": "tip-of-the-tongue",
+    "name": "Tip-of-the-Tongue Phenomenon",
+    "one_line_hook": "Why you can feel a word exists but can't quite pull it out of your memory",
+    "source_link": "https://en.wikipedia.org/wiki/Tip_of_the_tongue",
+    "used_at": null
+  },
+  {
+    "id": "tragedy-of-the-commons",
+    "name": "Tragedy of the Commons",
+    "one_line_hook": "Why shared resources get destroyed even when everyone knows it's happening",
+    "source_link": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons",
+    "used_at": null
+  },
+  {
+    "id": "trait-ascription-bias",
+    "name": "Trait Ascription Bias",
+    "one_line_hook": "Why you see yourself as flexible but others as stubborn and predictable",
+    "source_link": "https://en.wikipedia.org/wiki/Trait_ascription_bias",
+    "used_at": null
+  },
+  {
+    "id": "tunnel-vision",
+    "name": "Tunnel Vision Bias",
+    "one_line_hook": "Why investigators sometimes ignore evidence that points away from their prime suspect",
+    "source_link": "https://en.wikipedia.org/wiki/Tunnel_vision_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "ultimate-attribution-error",
+    "name": "Ultimate Attribution Error",
+    "one_line_hook": "Why outgroup failures are blamed on character but successes on luck",
+    "source_link": "https://en.wikipedia.org/wiki/Ultimate_attribution_error",
+    "used_at": null
+  },
+  {
+    "id": "unit-relationship-bias",
+    "name": "Scope Insensitivity",
+    "one_line_hook": "Why you donate nearly the same amount to save 2000 birds as 200000",
+    "source_link": "https://en.wikipedia.org/wiki/Scope_insensitivity",
+    "used_at": null
+  },
+  {
+    "id": "verbatim-effect",
+    "name": "Verbatim Effect",
+    "one_line_hook": "Why you remember the gist of a conversation but forget the exact words almost immediately",
+    "source_link": "https://en.wikipedia.org/wiki/Verbatim_effect",
+    "used_at": null
+  },
+  {
+    "id": "visceral-bias",
+    "name": "Visceral Bias",
+    "one_line_hook": "Why a disgusting smell in a room makes people judge moral transgressions more harshly",
+    "source_link": "https://en.wikipedia.org/wiki/Embodied_cognition",
+    "used_at": null
+  },
+  {
+    "id": "von-restorff-effect",
+    "name": "Von Restorff Effect",
+    "one_line_hook": "Why the one yellow item in a row of black ones is always remembered",
+    "source_link": "https://en.wikipedia.org/wiki/Von_Restorff_effect",
+    "used_at": null
+  },
+  {
+    "id": "weapon-focus-effect",
+    "name": "Weapon Focus Effect",
+    "one_line_hook": "Why eyewitnesses who see a gun can't reliably describe the person holding it",
+    "source_link": "https://en.wikipedia.org/wiki/Weapon_focus",
+    "used_at": null
+  },
+  {
+    "id": "weber-fechner-law",
+    "name": "Weber-Fechner Law",
+    "one_line_hook": "Why saving $10 on a $20 item feels great but not on a $10000 item",
+    "source_link": "https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law",
+    "used_at": null
+  },
+  {
+    "id": "wishful-thinking",
+    "name": "Wishful Thinking",
+    "one_line_hook": "Why fans genuinely believe their team will win before a game, not just hope",
+    "source_link": "https://en.wikipedia.org/wiki/Wishful_thinking",
+    "used_at": null
+  },
+  {
+    "id": "word-superiority-effect",
+    "name": "Word Superiority Effect",
+    "one_line_hook": "Why you recognize a letter faster when it's inside a word than standing alone",
+    "source_link": "https://en.wikipedia.org/wiki/Word_superiority_effect",
+    "used_at": null
+  },
+  {
+    "id": "xs-and-os-effect",
+    "name": "Cheerfulness Bias",
+    "one_line_hook": "Why people rate their life satisfaction higher on sunny days without realizing it",
+    "source_link": "https://en.wikipedia.org/wiki/Mood_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "zeigarnik-effect",
+    "name": "Zeigarnik Effect",
+    "one_line_hook": "Why unfinished tasks keep nagging at your brain but completed ones disappear",
+    "source_link": "https://en.wikipedia.org/wiki/Zeigarnik_effect",
+    "used_at": null
+  },
+  {
+    "id": "denomination-bias",
+    "name": "Round Number Bias",
+    "one_line_hook": "Why prices ending in .99 sell more even though everyone knows the trick",
+    "source_link": "https://en.wikipedia.org/wiki/Psychological_pricing",
+    "used_at": null
+  },
+  {
+    "id": "regression-to-mean",
+    "name": "Regression to the Mean",
+    "one_line_hook": "Why praising a great performance and criticizing a bad one both seem to \"work\"",
+    "source_link": "https://en.wikipedia.org/wiki/Regression_toward_the_mean",
+    "used_at": null
+  },
+  {
+    "id": "attribute-substitution",
+    "name": "Attribute Substitution",
+    "one_line_hook": "Why you answer a hard question by secretly replacing it with an easier one",
+    "source_link": "https://en.wikipedia.org/wiki/Attribute_substitution",
+    "used_at": null
+  },
+  {
+    "id": "attentional-bias",
+    "name": "Attentional Bias",
+    "one_line_hook": "Why people in pain notice pain-related words faster than neutral words",
+    "source_link": "https://en.wikipedia.org/wiki/Attentional_bias",
+    "used_at": null
+  },
+  {
+    "id": "blind-spot-bias",
+    "name": "Blind Spot Bias",
+    "one_line_hook": "Why smart people are especially good at explaining away their own biases",
+    "source_link": "https://en.wikipedia.org/wiki/Bias_blind_spot",
+    "used_at": null
+  },
+  {
+    "id": "bounded-rationality",
+    "name": "Bounded Rationality",
+    "one_line_hook": "Why people pick \"good enough\" options rather than the theoretically best one",
+    "source_link": "https://en.wikipedia.org/wiki/Bounded_rationality",
+    "used_at": null
+  },
+  {
+    "id": "buy-now-pay-later-effect",
+    "name": "Temporal Discounting",
+    "one_line_hook": "Why buy-now-pay-later schemes make people spend 20% more on average",
+    "source_link": "https://en.wikipedia.org/wiki/Temporal_discounting",
+    "used_at": null
+  },
+  {
+    "id": "causal-attribution",
+    "name": "Causal Attribution Error",
+    "one_line_hook": "Why you think your city's rain is caused by something local, not global weather",
+    "source_link": "https://en.wikipedia.org/wiki/Attribution_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "commitment-and-consistency",
+    "name": "Commitment and Consistency Bias",
+    "one_line_hook": "Why people who sign a petition are far more likely to donate later",
+    "source_link": "https://en.wikipedia.org/wiki/Consistency_(negotiation)",
+    "used_at": null
+  },
+  {
+    "id": "conceptual-consumption",
+    "name": "Conceptual Consumption",
+    "one_line_hook": "Why thinking about eating a food can satisfy some of the craving",
+    "source_link": "https://en.wikipedia.org/wiki/Thought_suppression",
+    "used_at": null
+  },
+  {
+    "id": "conjunction-fallacy",
+    "name": "Conjunction Fallacy",
+    "one_line_hook": "Why a specific story feels more probable than a general one even when it can't be",
+    "source_link": "https://en.wikipedia.org/wiki/Conjunction_fallacy",
+    "used_at": null
+  },
+  {
+    "id": "consistency-bias",
+    "name": "Consistency Bias",
+    "one_line_hook": "Why you misremember your past opinions as always matching your present ones",
+    "source_link": "https://en.wikipedia.org/wiki/Consistency_bias",
+    "used_at": null
+  },
+  {
+    "id": "construal-level-theory",
+    "name": "Construal Level Theory",
+    "one_line_hook": "Why things feel more feasible the closer they are in time or space",
+    "source_link": "https://en.wikipedia.org/wiki/Construal_level_theory",
+    "used_at": null
+  },
+  {
+    "id": "contagion-effect",
+    "name": "Contagion Effect",
+    "one_line_hook": "Why people won't drink from a glass stirred by a cockroach even after washing it",
+    "source_link": "https://en.wikipedia.org/wiki/Magical_thinking",
+    "used_at": null
+  },
+  {
+    "id": "cue-dependent-forgetting",
+    "name": "Cue-Dependent Forgetting",
+    "one_line_hook": "Why you forget what you were going to say the moment you enter a new room",
+    "source_link": "https://en.wikipedia.org/wiki/Cue-dependent_forgetting",
+    "used_at": null
+  },
+  {
+    "id": "current-moment-bias",
+    "name": "Current Moment Bias",
+    "one_line_hook": "Why people consistently underestimate how much they'll change in the next decade",
+    "source_link": "https://en.wikipedia.org/wiki/End-of-history_illusion",
+    "used_at": null
+  },
+  {
+    "id": "declinism",
+    "name": "Declinism",
+    "one_line_hook": "Why every generation believes the world is worse than it used to be",
+    "source_link": "https://en.wikipedia.org/wiki/Declinism",
+    "used_at": null
+  },
+  {
+    "id": "effort-heuristic",
+    "name": "Effort Heuristic",
+    "one_line_hook": "Why you rate a poem as better when told the poet spent months on it",
+    "source_link": "https://en.wikipedia.org/wiki/Effort_heuristic",
+    "used_at": null
+  },
+  {
+    "id": "end-of-history-illusion",
+    "name": "End-of-History Illusion",
+    "one_line_hook": "Why you think who you are right now is finally the finished version of yourself",
+    "source_link": "https://en.wikipedia.org/wiki/End-of-history_illusion",
+    "used_at": null
+  },
+  {
+    "id": "evening-effect",
+    "name": "Evening Effect",
+    "one_line_hook": "Why willpower and good decisions tend to deteriorate as the day goes on",
+    "source_link": "https://en.wikipedia.org/wiki/Ego_depletion",
+    "used_at": null
+  },
+  {
+    "id": "expectation-bias",
+    "name": "Expectation Bias",
+    "one_line_hook": "Why wine tastes better when you're told it's expensive even if it isn't",
+    "source_link": "https://en.wikipedia.org/wiki/Expectation_bias",
+    "used_at": null
+  },
+  {
+    "id": "false-memory",
+    "name": "False Memory",
+    "one_line_hook": "Why people remember events that never actually happened with complete confidence",
+    "source_link": "https://en.wikipedia.org/wiki/False_memory",
+    "used_at": null
+  },
+  {
+    "id": "foot-in-the-door",
+    "name": "Foot-in-the-Door Technique",
+    "one_line_hook": "Why agreeing to wear a small button makes you more likely to put a billboard in your yard",
+    "source_link": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+    "used_at": null
+  },
+  {
+    "id": "generation-effect",
+    "name": "Generation Effect",
+    "one_line_hook": "Why you remember things better when you figure them out yourself than when you're told",
+    "source_link": "https://en.wikipedia.org/wiki/Generation_effect_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "illusory-truth-effect",
+    "name": "Illusory Truth Effect",
+    "one_line_hook": "Why repeating a false claim enough times makes people start to believe it",
+    "source_link": "https://en.wikipedia.org/wiki/Illusory_truth_effect",
+    "used_at": null
+  },
+  {
+    "id": "irrational-belief",
+    "name": "Magical Thinking",
+    "one_line_hook": "Why athletes wear lucky socks and never wash them during a winning streak",
+    "source_link": "https://en.wikipedia.org/wiki/Magical_thinking",
+    "used_at": null
+  },
+  {
+    "id": "license-plate-effect",
+    "name": "Number Anchoring",
+    "one_line_hook": "Why asking if Gandhi died before or after age 144 changes your estimate of his age",
+    "source_link": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)",
+    "used_at": null
+  },
+  {
+    "id": "locus-of-control",
+    "name": "Locus of Control Bias",
+    "one_line_hook": "Why some people believe luck runs their life while others feel fully in charge",
+    "source_link": "https://en.wikipedia.org/wiki/Locus_of_control",
+    "used_at": null
+  },
+  {
+    "id": "mum-effect",
+    "name": "Mum Effect",
+    "one_line_hook": "Why employees don't tell their bosses about problems they know about",
+    "source_link": "https://en.wikipedia.org/wiki/Mum_effect",
+    "used_at": null
+  },
+  {
+    "id": "name-letter-effect",
+    "name": "Name-Letter Effect",
+    "one_line_hook": "Why people subtly prefer their own initials in brand names and license plates",
+    "source_link": "https://en.wikipedia.org/wiki/Name-letter_effect",
+    "used_at": null
+  },
+  {
+    "id": "nostalgia-bias",
+    "name": "Nostalgia Bias",
+    "one_line_hook": "Why the decade you grew up in always feels like the best era for music",
+    "source_link": "https://en.wikipedia.org/wiki/Nostalgia",
+    "used_at": null
+  },
+  {
+    "id": "pratfall-effect",
+    "name": "Pratfall Effect",
+    "one_line_hook": "Why making a small mistake makes competent people more likable, not less",
+    "source_link": "https://en.wikipedia.org/wiki/Pratfall_effect",
+    "used_at": null
+  },
+  {
+    "id": "priming-effect",
+    "name": "Priming Effect",
+    "one_line_hook": "Why seeing money on a desk makes people less likely to ask for help minutes later",
+    "source_link": "https://en.wikipedia.org/wiki/Priming_(psychology)",
+    "used_at": null
+  },
+  {
+    "id": "recency-primacy",
+    "name": "Recency vs Primacy",
+    "one_line_hook": "Why what happens first and last in a job interview matters more than the middle",
+    "source_link": "https://en.wikipedia.org/wiki/Serial_position_effect",
+    "used_at": null
+  },
+  {
+    "id": "representativeness-heuristic",
+    "name": "Representativeness Heuristic",
+    "one_line_hook": "Why a quiet bookish person seems more likely to be a librarian than a farmer despite the odds",
+    "source_link": "https://en.wikipedia.org/wiki/Representativeness_heuristic",
+    "used_at": null
+  },
+  {
+    "id": "role-suction",
+    "name": "Role Suction",
+    "one_line_hook": "Why even volunteers playing prison guards start acting cruel within days",
+    "source_link": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+    "used_at": null
+  },
+  {
+    "id": "satisficing",
+    "name": "Satisficing",
+    "one_line_hook": "Why people pick the first good-enough option instead of searching for the best one",
+    "source_link": "https://en.wikipedia.org/wiki/Satisficing",
+    "used_at": null
+  },
+  {
+    "id": "signal-detection-bias",
+    "name": "Signal Detection Bias",
+    "one_line_hook": "Why doctors miss rare diseases and security guards flag innocent people",
+    "source_link": "https://en.wikipedia.org/wiki/Detection_theory",
+    "used_at": null
+  },
+  {
+    "id": "simulation-heuristic",
+    "name": "Simulation Heuristic",
+    "one_line_hook": "Why near-misses feel worse than disasters that were clearly inevitable",
+    "source_link": "https://en.wikipedia.org/wiki/Simulation_heuristic",
+    "used_at": null
+  },
+  {
+    "id": "social-facilitation",
+    "name": "Social Facilitation",
+    "one_line_hook": "Why you ride a bike faster when others are watching but freeze during a speech",
+    "source_link": "https://en.wikipedia.org/wiki/Social_facilitation",
+    "used_at": null
+  },
+  {
+    "id": "temporal-self-appraisal",
+    "name": "Temporal Self-Appraisal",
+    "one_line_hook": "Why your past self seems more embarrassing as time goes on but not your future self",
+    "source_link": "https://en.wikipedia.org/wiki/Temporal_self-appraisal",
+    "used_at": null
+  },
+  {
+    "id": "the-ostrich-problem",
+    "name": "Financial Ostrich Effect",
+    "one_line_hook": "Why investors check their portfolios less during market crashes",
+    "source_link": "https://en.wikipedia.org/wiki/Ostrich_effect",
+    "used_at": null
+  },
+  {
+    "id": "truth-effect",
+    "name": "Truth Effect",
+    "one_line_hook": "Why hearing a statement multiple times makes you rate it as more truthful",
+    "source_link": "https://en.wikipedia.org/wiki/Illusory_truth_effect",
+    "used_at": null
+  },
+  {
+    "id": "two-factor-theory",
+    "name": "Two-Factor Theory of Emotion",
+    "one_line_hook": "Why your heart racing can be mistaken for attraction if an attractive person is nearby",
+    "source_link": "https://en.wikipedia.org/wiki/Two-factor_theory_of_emotion",
+    "used_at": null
+  },
+  {
+    "id": "unskilled-and-unaware",
+    "name": "Unskilled and Unaware Effect",
+    "one_line_hook": "Why the least competent people are often the most confident in their ability",
+    "source_link": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+    "used_at": null
+  },
+  {
+    "id": "variable-reward",
+    "name": "Variable Reward Effect",
+    "one_line_hook": "Why slot machines and social media feeds are more addictive than predictable rewards",
+    "source_link": "https://en.wikipedia.org/wiki/Reinforcement#Variable_ratio_reinforcement",
+    "used_at": null
+  },
+  {
+    "id": "winner-takes-all",
+    "name": "Winner-Take-All Bias",
+    "one_line_hook": "Why talent and effort matter less than timing and luck for who ends up famous",
+    "source_link": "https://en.wikipedia.org/wiki/Winner-take-all",
+    "used_at": null
+  }
+]
