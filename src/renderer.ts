@@ -1,6 +1,6 @@
 import { bundle } from '@remotion/bundler';
 import { renderMedia, selectComposition } from '@remotion/renderer';
-import { resolve } from 'node:path';
+import { resolve, dirname, relative } from 'node:path';
 import type { StructuredScript, SectionTiming } from './types.js';
 
 interface RenderOptions {
@@ -15,17 +15,31 @@ interface RenderOptions {
 export async function renderShort(opts: RenderOptions): Promise<void> {
   const entry = resolve(process.cwd(), 'remotion/Root.tsx');
 
-  const bundled = await bundle({ entryPoint: entry });
+  // Remotion's webpack server only serves files within publicDir.
+  // Set publicDir to the work directory so audio and bg/ videos are reachable,
+  // then pass server-relative URLs (/audio.mp3, /bg/section-0.mp4) to the composition.
+  const workDir = opts.audioPath
+    ? dirname(opts.audioPath)
+    : process.cwd();
+
+  const bundled = await bundle({ entryPoint: entry, publicDir: workDir });
+
+  const servedAudioPath = opts.audioPath ? '/audio.mp3' : '';
+  const servedBgPaths = opts.backgroundPaths.map(p =>
+    p ? '/' + relative(workDir, p) : ''
+  );
+
+  const inputProps = {
+    script: opts.script,
+    audioPath: servedAudioPath,
+    backgroundPaths: servedBgPaths,
+    timings: opts.timings,
+  };
 
   const composition = await selectComposition({
     serveUrl: bundled,
     id: 'Short',
-    inputProps: {
-      script: opts.script,
-      audioPath: opts.audioPath,
-      backgroundPaths: opts.backgroundPaths,
-      timings: opts.timings,
-    },
+    inputProps,
   });
 
   await renderMedia({
@@ -35,11 +49,6 @@ export async function renderShort(opts: RenderOptions): Promise<void> {
     serveUrl: bundled,
     codec: 'h264',
     outputLocation: opts.outputPath,
-    inputProps: {
-      script: opts.script,
-      audioPath: opts.audioPath,
-      backgroundPaths: opts.backgroundPaths,
-      timings: opts.timings,
-    },
+    inputProps,
   });
 }
