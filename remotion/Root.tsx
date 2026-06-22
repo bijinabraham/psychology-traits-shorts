@@ -1,8 +1,28 @@
 import React from 'react';
 import { Composition, registerRoot } from 'remotion';
+import { z } from 'zod';
 import { ShortComposition } from './ShortComposition';
 import { THEME } from './theme';
+import { StructuredScriptSchema, SectionKindSchema } from '../src/types';
 import type { StructuredScript, SectionTiming } from '../src/types';
+
+const SectionTimingSchema = z.object({
+  kind: SectionKindSchema,
+  start_ms: z.number(),
+  end_ms: z.number(),
+  words: z.array(z.object({
+    word: z.string(),
+    start_ms: z.number(),
+    end_ms: z.number(),
+  })),
+});
+
+const ShortCompositionPropsSchema = z.object({
+  script: StructuredScriptSchema,
+  audioPath: z.string(),
+  backgroundPaths: z.array(z.string()),
+  timings: z.array(SectionTimingSchema),
+});
 
 const previewScript: StructuredScript = {
   bias_id: 'preview',
@@ -38,6 +58,7 @@ export const Root: React.FC = () => {
       fps={THEME.video.fps}
       width={THEME.video.width}
       height={THEME.video.height}
+      schema={ShortCompositionPropsSchema}
       defaultProps={{
         script: previewScript,
         audioPath: '',

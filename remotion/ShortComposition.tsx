@@ -9,7 +9,7 @@ import { HandleBadge } from './components/HandleBadge';
 import { Captions } from './components/Captions';
 import type { StructuredScript, SectionTiming } from '../src/types';
 
-export interface ShortCompositionProps {
+export interface ShortCompositionProps extends Record<string, unknown> {
   script: StructuredScript;
   audioPath: string;
   backgroundPaths: string[];
