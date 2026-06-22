@@ -6,3 +6,13 @@ dist/
 *.mp4
 *.mp3
 .DS_Store
+
+# Remotion artifacts
+remotion/.cache/
+
+# Test outputs
+coverage/
+
+# Runtime outputs
+data/runs/*.json
+!data/runs/.gitkeep
