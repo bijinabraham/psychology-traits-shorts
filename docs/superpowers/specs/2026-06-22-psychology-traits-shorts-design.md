@@ -62,7 +62,7 @@ A pre-curated `data/biases.json` file containing ~250 entries:
 The `bias-selector` picks the next entry where `used_at` is null, in file order. Deterministic, simple, version-controlled.
 
 ### Pre-generated scripts (Option B)
-Scripts are not generated at runtime. Owner runs a Claude Code command (e.g., `/generate-next-20-scripts`) periodically. Output saved to `data/scripts.json`:
+Scripts are not generated at runtime. Owner runs `npx tsx scripts/generate-scripts.ts --count 20` locally inside a Claude Code session (Claude generates each script, the script file writes them to `data/scripts.json`). Output format:
 
 ```json
 {
@@ -169,7 +169,7 @@ psychology-traits-shorts/
 │   │   └── Captions.tsx
 │   └── fonts/                   (Instrument Serif + Inter, self-hosted)
 ├── scripts/
-│   ├── generate-scripts.ts      (run via Claude Code to refill the bank)
+│   ├── generate-scripts.ts      (run locally inside a Claude Code session to refill the bank)
 │   └── seed-biases.ts           (one-time: populate biases.json from Wikipedia)
 ├── .github/workflows/
 │   └── publish.yml              (cron Mon + Thu 22:00 UTC)
@@ -297,7 +297,7 @@ GitHub Actions free tier on **public repos = unlimited**. (Use public repo to av
 4. Run `npx tsx src/oauth-bootstrap.ts` locally to generate `YOUTUBE_REFRESH_TOKEN` via one-time browser OAuth flow (~10 min)
 5. Add all 6 secrets to GitHub repo Settings → Secrets → Actions (~15 min)
 6. Run `npx tsx scripts/seed-biases.ts` to populate `data/biases.json` with the initial 250 entries (~5 min)
-7. Run `/generate-next-20-scripts` (or equivalent) in Claude Code to populate `data/scripts.json` with the first 20 scripts (~15 min)
+7. Inside a Claude Code session, run `npx tsx scripts/generate-scripts.ts --count 20` to populate `data/scripts.json` with the first 20 scripts (~15 min)
 8. Manually trigger workflow with `dry_run: true`, download the MP4 artifact, review it, iterate on template if needed (~30 min)
 9. Disable `dry_run`, ship first real video. Watch the next 2-3 runs to confirm stability.
 
