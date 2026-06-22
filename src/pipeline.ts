@@ -70,6 +70,8 @@ export async function runPipeline(opts: PipelineOptions): Promise<number> {
       apiKey: opts.env.PEXELS_API_KEY,
     });
 
+    console.log('[pipeline] backgroundPaths[0]:', backgroundPaths[0]?.slice(0, 120));
+    console.log('[pipeline] audio_data_url prefix:', audio_data_url.slice(0, 40));
     console.log('[pipeline] rendering video');
     const videoPath = join(opts.workDir, 'output.mp4');
     await renderShort({

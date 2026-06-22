@@ -42,6 +42,13 @@ jobs:
       - name: Install npm deps
         run: npm ci
 
+      - name: Debug - verify source files
+        run: |
+          echo "=== asset-fetcher.ts first 10 lines ==="
+          head -5 src/asset-fetcher.ts
+          echo "=== asset-fetcher.ts chosen.link line ==="
+          grep -n 'chosen.link\|outputDir\|downloadFile\|writeFile' src/asset-fetcher.ts || echo "(none found)"
+
       - name: Run pipeline
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
