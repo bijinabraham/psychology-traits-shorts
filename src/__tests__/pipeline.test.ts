@@ -15,7 +15,7 @@ vi.mock('../state-updater.js');
 
 import { selectNextBias, selectBiasById } from '../bias-selector.js';
 import { loadScriptForBias } from '../script-loader.js';
-import { synthesizeScript } from '../voice-synth.js';
+import { synthesizeScript, checkElevenLabsQuota } from '../voice-synth.js';
 import { fetchBackgroundsForScript } from '../asset-fetcher.js';
 import { renderShort } from '../renderer.js';
 import { uploadShort } from '../uploader.js';
@@ -60,6 +60,9 @@ beforeEach(() => {
   vi.mocked(selectBiasById).mockResolvedValue(bias);
   vi.mocked(loadScriptForBias).mockResolvedValue(script);
   vi.mocked(synthesizeScript).mockResolvedValue({ audio_data_url: 'data:audio/mpeg;base64,FAKE', timings });
+  vi.mocked(checkElevenLabsQuota).mockResolvedValue({
+    available: 10000, required: 500, sufficient: true, resetUnix: 0,
+  });
   vi.mocked(fetchBackgroundsForScript).mockResolvedValue(
     Array.from({ length: 6 }, (_, i) => `https://cdn.pexels.com/section-${i}.mp4`),
   );
@@ -126,6 +129,25 @@ describe('runPipeline', () => {
     });
     expect(selectBiasById).toHaveBeenCalledWith('data/biases.json', 'b1');
     expect(selectNextBias).not.toHaveBeenCalled();
+  });
+
+  it('skips cleanly (exit 0) when ElevenLabs quota is insufficient', async () => {
+    vi.mocked(checkElevenLabsQuota).mockResolvedValue({
+      available: 39, required: 500, sufficient: false, resetUnix: 1721692800,
+    });
+    const workDir = await mkdtemp(join(tmpdir(), 'pl-'));
+    const exitCode = await runPipeline({
+      env, dryRun: false, biasIdOverride: null,
+      biasesPath: 'data/biases.json',
+      scriptsPath: 'data/scripts.json',
+      runsDir: 'data/runs',
+      workDir,
+    });
+    expect(exitCode).toBe(0);
+    expect(synthesizeScript).not.toHaveBeenCalled();
+    expect(uploadShort).not.toHaveBeenCalled();
+    expect(markBiasUsed).not.toHaveBeenCalled();
+    expect(writeRunLog).not.toHaveBeenCalled();
   });
 
   it('throws if a required env var is missing', async () => {

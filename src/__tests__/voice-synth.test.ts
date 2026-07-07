@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { synthesizeScript } from '../voice-synth.js';
+import { synthesizeScript, checkElevenLabsQuota } from '../voice-synth.js';
 import type { StructuredScript } from '../types.js';
 
 const script: StructuredScript = {
@@ -64,5 +64,62 @@ describe('synthesizeScript', () => {
     await expect(
       synthesizeScript(script, { apiKey: 't', voiceId: 'v' }),
     ).rejects.toThrow(/elevenlabs.*429/i);
+  });
+});
+
+describe('checkElevenLabsQuota', () => {
+  it('returns sufficient=true when available credits cover required chars', async () => {
+    vi.spyOn(global, 'fetch').mockImplementation(async () =>
+      new Response(JSON.stringify({
+        character_count: 100,
+        character_limit: 10000,
+        next_character_count_reset_unix: 1721692800,
+      })),
+    );
+    const result = await checkElevenLabsQuota(script, 'test-key');
+    // script above has 6 sections with short voice text; total ~26 chars
+    expect(result.sufficient).toBe(true);
+    expect(result.available).toBe(9900);
+    expect(result.required).toBeGreaterThan(0);
+    expect(result.resetUnix).toBe(1721692800);
+  });
+
+  it('returns sufficient=false when remaining credits are less than required', async () => {
+    vi.spyOn(global, 'fetch').mockImplementation(async () =>
+      new Response(JSON.stringify({
+        character_count: 9990,
+        character_limit: 10000,
+        next_character_count_reset_unix: 1721692800,
+      })),
+    );
+    const result = await checkElevenLabsQuota(script, 'test-key');
+    expect(result.sufficient).toBe(false);
+    expect(result.available).toBe(10);
+  });
+
+  it('sums character counts across all script sections', async () => {
+    const fetchSpy = vi.spyOn(global, 'fetch').mockImplementation(async () =>
+      new Response(JSON.stringify({
+        character_count: 0,
+        character_limit: 10000,
+        next_character_count_reset_unix: 0,
+      })),
+    );
+    const result = await checkElevenLabsQuota(script, 'test-key');
+    const expected = script.sections.reduce((sum, s) => sum + s.voice.length, 0);
+    expect(result.required).toBe(expected);
+    expect(fetchSpy.mock.calls[0][0]).toContain('/v1/user/subscription');
+    expect((fetchSpy.mock.calls[0][1] as RequestInit).headers).toMatchObject({
+      'xi-api-key': 'test-key',
+    });
+  });
+
+  it('throws if the subscription API returns a non-OK status', async () => {
+    vi.spyOn(global, 'fetch').mockImplementation(async () =>
+      new Response('unauthorized', { status: 401 }),
+    );
+    await expect(checkElevenLabsQuota(script, 'bad-key')).rejects.toThrow(
+      /elevenlabs.*subscription.*401/i,
+    );
   });
 });

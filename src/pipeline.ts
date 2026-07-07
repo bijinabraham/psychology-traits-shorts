@@ -2,7 +2,7 @@ import { mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { selectNextBias, selectBiasById } from './bias-selector.js';
 import { loadScriptForBias } from './script-loader.js';
-import { synthesizeScript } from './voice-synth.js';
+import { synthesizeScript, checkElevenLabsQuota } from './voice-synth.js';
 import { fetchBackgroundsForScript } from './asset-fetcher.js';
 import { renderShort } from './renderer.js';
 import { uploadShort } from './uploader.js';
@@ -58,6 +58,20 @@ export async function runPipeline(opts: PipelineOptions): Promise<number> {
 
     console.log('[pipeline] loading script');
     const script = await loadScriptForBias(opts.scriptsPath, bias.id);
+
+    console.log('[pipeline] checking ElevenLabs quota');
+    const quota = await checkElevenLabsQuota(script, opts.env.ELEVENLABS_API_KEY);
+    if (!quota.sufficient) {
+      const resetIso = quota.resetUnix
+        ? new Date(quota.resetUnix * 1000).toISOString()
+        : 'unknown';
+      console.log(
+        `[pipeline] SKIP: ElevenLabs quota insufficient ` +
+        `(available ${quota.available}, required ${quota.required}, resets ${resetIso}). ` +
+        `Bias not marked used; will retry on next run.`,
+      );
+      return 0;
+    }
 
     console.log('[pipeline] synthesizing voice');
     const { audio_data_url, timings } = await synthesizeScript(script, {

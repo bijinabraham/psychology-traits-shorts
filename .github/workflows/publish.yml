@@ -1,8 +1,9 @@
 name: publish-short
 
 on:
-  schedule:
-    - cron: '0 22 * * 1,4'    # Mon + Thu, 22:00 UTC
+  # Paused 2026-07-07 — ElevenLabs quota exhausted, resets 2026-07-23. Re-enable then.
+  # schedule:
+  #   - cron: '0 22 * * 1,4'    # Mon + Thu, 22:00 UTC
   workflow_dispatch:
     inputs:
       dry_run:

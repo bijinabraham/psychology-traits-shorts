@@ -21,6 +21,41 @@ interface ElevenLabsResponse {
 
 const MODEL_ID = 'eleven_turbo_v2_5';
 
+export interface QuotaCheckResult {
+  available: number;
+  required: number;
+  sufficient: boolean;
+  resetUnix: number;
+}
+
+interface SubscriptionResponse {
+  character_count: number;
+  character_limit: number;
+  next_character_count_reset_unix: number;
+}
+
+export async function checkElevenLabsQuota(
+  script: StructuredScript,
+  apiKey: string,
+): Promise<QuotaCheckResult> {
+  const required = script.sections.reduce((sum, s) => sum + s.voice.length, 0);
+  const res = await fetch('https://api.elevenlabs.io/v1/user/subscription', {
+    headers: { 'xi-api-key': apiKey },
+  });
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`ElevenLabs subscription ${res.status}: ${body.slice(0, 200)}`);
+  }
+  const sub = (await res.json()) as SubscriptionResponse;
+  const available = sub.character_limit - sub.character_count;
+  return {
+    available,
+    required,
+    sufficient: available >= required,
+    resetUnix: sub.next_character_count_reset_unix,
+  };
+}
+
 async function synthOneSection(
   voiceText: string,
   apiKey: string,
